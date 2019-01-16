@@ -361,7 +361,6 @@
 
 /* Home page header text */
 #block-block-7 h1 {
-  font-size: 1.5em
 }
 
 /* tabs on header */
@@ -389,7 +388,6 @@
   border: 2px solid #cbccce;
   border-radius: 25px;
   transition: 0.5s;
-  font-size: 100%;
 }
 
 /* find out more button */
