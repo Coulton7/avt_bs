@@ -1,7 +1,6 @@
 .feature-background {
   background: #888C8F;
   color: #FFFFFF;
-   !important;
   background: -moz-radial-gradient(center, ellipse cover, #888C8F 0%, #000000 80%);
   background: -webkit-radial-gradient(center, ellipse cover, #888C8F 0%, #000000 80%);
   background: radial-gradient(ellipse at center, #888C8F 0%, #000000 80%);
@@ -14,35 +13,11 @@
   padding: 10px 5px 10px 5px;
 }
 
-.blue-background {
-  background: #002A5B;
-  color: #FFFFFF;
-  padding: 10px 5px 10px 5px;
-}
-
-.darkgrey-background {
-  background: #888C8F;
-  color: #FFFFFF;
-  padding: 10px 5px 10px 5px;
-}
-
-.midgrey-background {
-  background: #B5B6B9;
-  color: #FFFFFF;
-  padding: 10px 5px 10px 5px;
-}
-
-.lightgrey-background {
-  background: #E5E5E7;
-  color: #888C8F;
-  padding: 10px 5px 10px 5px;
-}
-
 .shadow-background {
   background: #f5f5f5;
   color: #888C8F;
   padding: 30px 50px 30px 50px;
-  background-image: url('http://www.aesseal.com/sites/all/themes/aesseal_classic/images/section-shadow.png');
+  background-image: url(/sites/all/themes/aesbs337/images/graphics/section-shadow.png);
   background-position: top;
   background-repeat: no-repeat;
 }
