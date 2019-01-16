@@ -29,12 +29,6 @@ html, body {
   overflow: hidden;
 }
 
-body {
-  font-size: 1.6em !important;
-  line-height: 1.5em;
-  color: #535454;
-}
-
 .center-align {
   text-align: center;
 }
