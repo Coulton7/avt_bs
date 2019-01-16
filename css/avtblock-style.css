@@ -1,0 +1,768 @@
+.feature-background {
+  background: #888C8F;
+  color: #FFFFFF;
+   !important;
+  background: -moz-radial-gradient(center, ellipse cover, #888C8F 0%, #000000 80%);
+  background: -webkit-radial-gradient(center, ellipse cover, #888C8F 0%, #000000 80%);
+  background: radial-gradient(ellipse at center, #888C8F 0%, #000000 80%);
+  padding: 30px 50px 30px 50px;
+}
+
+.red-background {
+  background: #DD1E25;
+  color: #FFFFFF;
+  padding: 10px 5px 10px 5px;
+}
+
+.blue-background {
+  background: #002A5B;
+  color: #FFFFFF;
+  padding: 10px 5px 10px 5px;
+}
+
+.darkgrey-background {
+  background: #888C8F;
+  color: #FFFFFF;
+  padding: 10px 5px 10px 5px;
+}
+
+.midgrey-background {
+  background: #B5B6B9;
+  color: #FFFFFF;
+  padding: 10px 5px 10px 5px;
+}
+
+.lightgrey-background {
+  background: #E5E5E7;
+  color: #888C8F;
+  padding: 10px 5px 10px 5px;
+}
+
+.shadow-background {
+  background: #f5f5f5;
+  color: #888C8F;
+  padding: 30px 50px 30px 50px;
+  background-image: url('http://www.aesseal.com/sites/all/themes/aesseal_classic/images/section-shadow.png');
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+#block-block-11 {
+  /* navigation on the homepage */
+  margin: 0 -15px;
+  height: 46px;
+  background-color: #dddddd;
+  line-height: 46px;
+}
+
+#block-block-11 a {
+  color: black;
+  transition: 0.3s;
+}
+
+#block-block-11 a:hover {
+  color: #dd1e25;
+}
+
+#block-block-11 input.input-medium.search-query {
+  /* home page search bar (since removed) */
+  padding: 0 12px;
+  margin-right: 10px;
+  margin-top: 8px;
+  float: right;
+  height: 30px;
+  border-radius: 15px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+#block-block-11 .btn.btn-default {
+  width: 35px;
+  height: 35px;
+}
+
+#block-system-main {
+  /* main content block */
+  margin-bottom: 35px;
+}
+
+#breadcrumb-extension-consulting {
+  background-size: auto;
+  background-color: #002a5b !important;
+}
+
+#breadcrumb-extension-services {
+  background-size: auto;
+  background-color: #002a5b !important;
+}
+
+#breadcrumb-extension-products {
+  background-size: auto;
+  background-color: #002a5b !important;
+}
+
+#breadcrumb-extension-training {
+  background-size: auto;
+  background-color: #002a5b !important;
+}
+
+#breadcrumb-extension-media {
+  background-size: auto;
+  background-color: #002a5b !important;
+}
+
+#breadcrumb-extension-about {
+  background-size: auto;
+  background-color: #002a5b !important;
+}
+
+.breadcrumb-extension {
+  /* header image */
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f5f5f5;
+  margin: 0px -15px;
+  padding: 30px 0px 0px 0px;
+}
+
+.avt-helix {
+  /* helix image on header */
+  z-index: 1;
+}
+
+.hexagon-wrap {
+  margin-top: -20px;
+  margin-bottom: -85px;
+  margin-left: 30px;
+}
+
+/*Hexagon shapes*/
+.hexagon-col {
+  z-index: 1;
+}
+
+.hexagon {
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-transform: rotate(120deg);
+  -moz-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  transform: rotate(120deg);
+  width: 300px;
+  height: 150px;
+  margin: 0 0 10px 0px;
+}
+
+.hexagon.hexagon-inside {
+  margin-top: -155px;
+  width: 280px;
+  height: 140px;
+  margin-left: 10px
+}
+
+.hexagon-in1 {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+
+.hexagon-in2 {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: #fff;
+  visibility: visible;
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+
+.hexagon-in2.hexagon-inside {
+  background-image: url('http://placehold.it/180x180');
+  background-color: #fff;
+}
+
+#hexagon-wrap-consulting .hexagon-top .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/hextop-consultancy-1.png');
+}
+
+#hexagon-wrap-consulting .hexagon-bottom .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/hexbottom-consultancy-1.png');
+}
+
+#hexagon-wrap-consulting .hexagon-left .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/blank.png');
+}
+
+#hexagon-wrap-consulting .hexagon-right .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/hexright-consultancy-1.png');
+}
+
+#hexagon-wrap-services .hexagon-top .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/hextop-services-1.png');
+}
+
+#hexagon-wrap-services .hexagon-bottom .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/hexbottom-services-1.png');
+}
+
+#hexagon-wrap-services .hexagon-left .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/blank.png');
+}
+
+#hexagon-wrap-services .hexagon-right .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/hexright-services-1.png');
+}
+
+#hexagon-wrap-products .hexagon-top .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/hextop-products-1.png');
+}
+
+#hexagon-wrap-products .hexagon-bottom .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/hexbottom-products-1.png');
+}
+
+#hexagon-wrap-products .hexagon-left .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/blank.png');
+}
+
+#hexagon-wrap-products .hexagon-right .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/hexright-products-1.png');
+}
+
+#hexagon-wrap-training .hexagon-top .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/hextop-training-1.png');
+}
+
+#hexagon-wrap-training .hexagon-bottom .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/hexbottom-training-1.png');
+}
+
+#hexagon-wrap-training .hexagon-left .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/blank.png');
+}
+
+#hexagon-wrap-training .hexagon-right .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/hexright-training-1.png');
+}
+
+#hexagon-wrap-media .hexagon-top .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/hextop-media-1.png');
+}
+
+#hexagon-wrap-media .hexagon-bottom .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/hexbottom-media-1.png');
+}
+
+#hexagon-wrap-media .hexagon-left .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/blank.png');
+}
+
+#hexagon-wrap-media .hexagon-right .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/hexright-media-1.png');
+}
+
+#hexagon-wrap-about .hexagon-top .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/hextop-about-1.png');
+}
+
+#hexagon-wrap-about .hexagon-bottom .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/hexbottom-about-1.png');
+}
+
+#hexagon-wrap-about .hexagon-left .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/blank.png');
+}
+
+#hexagon-wrap-about .hexagon-right .hexagon-in2.hexagon-inside {
+  background-image: url('/sites/default/files/graphics/hexright-about-1.png');
+}
+
+.hexagon-left {
+  position: absolute;
+  margin-left: -446px;
+  margin-top: -83px;
+}
+
+.hexagon-right {
+  position: absolute;
+  margin-left: -154px;
+  margin-top: -83px;
+}
+
+#block-views-exp-resource-search-page {
+  border: 1px solid #e3e3e3;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+#block-views-exp-resource-search-page .form-control {
+  /* spacing and border on fields */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  background-color: white;
+}
+
+#block-views-exp-resource-search-page .views-widget-filter-search_api_views_fulltext {
+  width: 100%;
+}
+
+#block-views-exp-resource-search-page .views-submit-button {
+  width: 100%;
+  text-align: center;
+}
+
+#block-views-exp-resource-search-page .views-submit-button button {
+  background-color: #e01f1f !important;
+}
+
+#block-views-exp-resource-search-page .views-submit-button button:active {
+  background-color: #e01f1f !important;
+  background-image: none;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05);
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+#block-views-exp-resource-search-page .views-exposed-form .views-exposed-widget {
+  padding: 0 !important;
+}
+
+#block-views-exp-resource-search-page h2 {
+  margin-top: 0 !important;
+}
+
+#block-block-15 #sidebar-button {
+  /* Contact Us button active state */
+  background-color: #DD1E25;
+  color: #fff;
+  width: 100%;
+}
+
+#block-views-exp-search-page .views-exposed-form .views-exposed-widget {
+  padding-right: 0;
+  padding-top: 15px;
+  width: auto;
+}
+
+#block-views-exp-search-page #edit-search-api-views-fulltext-wrapper {
+  float: left;
+  width: 75%;
+}
+
+#block-views-exp-search-page #edit-search-api-views-fulltext--2-wrapper {
+  float: left;
+  width: 75%;
+}
+
+#block-views-exp-search-page button {
+  margin-top: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+#block-views-exp-search-page .views-submit-button {
+  float: right;
+}
+
+/* home page main title header */
+#block-block-7 {
+  padding: 40px 0 80px;
+  background-color: #f2f2f2;
+  margin: 0 -15px;
+}
+
+/* Home page header text */
+#block-block-7 h1 {
+  font-size: 1.5em
+}
+
+/* tabs on header */
+#block-block-8 {
+  margin: -49px -15px 0;
+}
+
+#block-block-8 .nav-tabs {
+  margin-bottom: 0 !important;
+}
+
+/*tabbed content*/
+#block-block-9 {
+  padding: 80px 0 0;
+  margin: 0 -15px;
+  background-size: cover;
+  background-position: bottom;
+  background-color: #002a5b !important;
+}
+
+/* find out more button */
+#block-block-9 .main-header-button {
+  padding: 10px 20px 10px 20px;
+  color: #ffffff;
+  border: 2px solid #cbccce;
+  border-radius: 25px;
+  transition: 0.5s;
+  font-size: 100%;
+}
+
+/* find out more button */
+#block-block-9 .main-header-button:hover {
+  color: black;
+  background-color: #cbccce;
+  transition: 0.5s;
+}
+
+/* find out more button */
+#block-block-9 p:last-child {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* remove bootstrap styling */
+#block-block-8 .nav-tabs>li.active>a, #block-block-8 .nav-tabs>li.active>a:focus {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+/* padding around tabs */
+#block-block-8 .nav>li>a, #block-block-11 .nav>li>a {
+  padding: 8px 15px;
+}
+
+/* blue top bar */
+#block-block-11 .nav-tabs {
+  margin-bottom: 0;
+  margin-top: 1px;
+}
+
+/* push down to be in line with the blue strip */
+section#block-views-slick-carousel-block {
+  margin-top: -100px;
+}
+
+/* light grey background */
+.ca-grey-block {
+  width: 100%;
+  background-color: #F5F5F5;
+  border: 1px solid #b3b3b3;
+  margin: 50px 0;
+}
+
+/* blue section */
+.ca-blue-block {
+  background-color: #002a5b;
+  width: 35%;
+  color: white !important;
+  float: right;
+  top: -390px;
+  right: 40px;
+  margin-bottom: -350px;
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(97, 97, 97, 1);
+  -moz-box-shadow: 0px 0px 18px 0px rgba(97, 97, 97, 1);
+  box-shadow: 0px 0px 18px 0px rgba(97, 97, 97, 1);
+}
+
+/*Positioning of the forms*/
+.view-display-id-block_1 .ca-blue-block {
+  top: -410px;
+}
+
+.view-display-id-block_6 .ca-blue-block,
+.view-display-id-block_3 .ca-blue-block {
+  top: -375px;
+}
+
+.view-display-id-block_7 .ca-blue-block,
+.view-display-id-block_9 .ca-blue-block,
+.view-display-id-block_10 .ca-blue-block {
+  top: -360px;
+}
+
+.view-display-id-block_8 .ca-blue-block {
+  top: -350px;
+}
+
+.ca-blue-block .form-control {
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.3);
+  border: 1px solid #999;
+  padding: 0 7px;
+}
+
+.ca-blue-block button {
+  background-color: transparent;
+  color: #fff;
+  border-radius: 0px;
+  border: 1px solid white;
+  display: block;
+  margin: 0 auto;
+  transition: .3s;
+}
+
+.ca-blue-block button:hover {
+  background-color: #fff;
+  color: #535454;
+  transition: .3s;
+}
+
+section.block-menu-block .block-title {
+  display: none;
+}
+
+#block-views-related-media-block {
+  padding-bottom: 35px;
+  margin-right: 15px;
+}
+
+  /* contact us well block */
+#block-block-16 {
+  padding-top: 40px;
+}
+
+/*Block not in use*/
+#block-views-slick-x-block-grid {
+  padding-bottom: 35px;
+}
+
+/*Block not in use*/
+#block-views-slick-x-block-grid h2 {
+  margin-top: 0;
+}
+
+/*Machine Sentry*/
+#block-block-3 {
+  position: relative;
+}
+
+/*Machine sentry grey background */
+.ms-grey-block {
+  width: 100%;
+  background-color: #efefef;
+  padding: 40px 30px;
+  margin-bottom: 150px;
+}
+
+/*General enquiry form grey background */
+#block-views-general-enquiry-block {
+  background-color: #E5E5E7;
+  padding: 30px 0;
+  margin: 0 -15px;
+}
+
+/*RRSSB*/
+.rrssb-item-list {
+  max-width: 1140px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#block-rrssb-rrssb {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  max-width: 60vw;
+  margin: 0px auto;
+}
+
+/*disabled block*/
+#block-block-2 .btn {
+  /* Grey footer area buttons */
+  background-color: black;
+  height: 43px;
+}
+
+/* Main dark grey block footer */
+#block-block-1 {
+  background-color: #4F4F4F;
+  margin: 0 -15px;
+  padding: 50px 0 10px;
+}
+
+/*social buttons footer*/
+#follow-us {
+  line-height: 35px;
+  vertical-align: middle;
+}
+
+/*share this page header*/
+#block-block-39 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#block-menu-menu-footer-menu {
+  background-color: #4F4F4F;
+  margin: 0 -15px;
+  text-align: center;
+}
+
+#block-menu-menu-footer-menu li {
+  display: inline-block;
+}
+
+#block-menu-menu-footer-menu a {
+  color: white;
+}
+
+#block-menu-menu-footer-menu a:hover {
+  text-decoration: none;
+  background-color: #e5e5e7;
+  color: black;
+}
+
+#block-menu-menu-footer-menu .active {
+  text-decoration: none;
+  background-color: #e5e5e7;
+  color: black;
+}
+
+#block-fieldblock-node-page-default-field-slideshowfield {
+  margin: 0 -20px;
+}
+
+@media (max-width: 767px) {
+  .avt-helix {
+    display: none;
+  }
+
+  .header-title-2 {
+    padding-left: 0px !important;
+  }
+
+  #breadcrumb-extension-consulting {
+    background-attachment: initial;
+  }
+
+  #breadcrumb-extension-services {
+    background-attachment: initial;
+  }
+
+  #breadcrumb-extension-products {
+    background-attachment: initial;
+  }
+
+  #breadcrumb-extension-training {
+    background-attachment: initial;
+  }
+
+  #breadcrumb-extension-media {
+    background-attachment: initial;
+  }
+
+  #breadcrumb-extension-about {
+    background-attachment: initial;
+  }
+
+  #block-block-9 {
+    background-attachment: initial;
+  }
+
+  /* more spacing above and below search bar on mobile */
+  #block-search-form {
+    margin: 30px 0;
+  }
+}
+
+@media (max-width: 990px) {
+  .hexagon-col {
+    display: none;
+  }
+
+  .avt-helix {
+    max-width: 200px !important;
+  }
+}
+
+@media(max-width: 991px) {
+  .ca-blue-block {
+    width: 100%;
+    position: static !important;
+    margin-top: 0;
+    margin-bottom: 25px;
+    right: 0;
+  }
+
+  .view-analysis-enquiry .view-header p, .call-to-action-table {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .avt-helix {
+    right: -135px !important;
+  }
+
+  .hexagon-wrap {
+    margin-left: -15px;
+  }
+
+  #block-views-exp-search-page #edit-search-api-views-fulltext-wrapper {
+    width: 70%;
+  }
+
+  #block-views-exp-search-page #edit-search-api-views-fulltext--2-wrapper {
+    width: 70%;
+  }
+}
+
+/*Internet Explorer media query*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #breadcrumb-extension-consulting {
+    background-image: none;
+    background-color: #002a5b;
+  }
+
+  #breadcrumb-extension-services {
+    background-image: none;
+    background-color: #002a5b;
+  }
+
+  #breadcrumb-extension-products {
+    background-image: none;
+    background-color: #002a5b;
+  }
+
+  #breadcrumb-extension-training {
+    background-image: none;
+    background-color: #002a5b;
+  }
+
+  #breadcrumb-extension-media {
+    background-image: none;
+    background-color: #002a5b;
+  }
+
+  #breadcrumb-extension-about {
+    background-image: none;
+    background-color: #002a5b;
+  }
+
+  #block-block-9 {
+    background-image: none;
+    background-color: #002a5b;
+  }
+}
+
+/*Unique RRSSB CSS*/
+@media all and (min-width: 1247px) {
+  .rrssb-item-list {
+    margin-bottom: 60px;
+    /* more spacing on larger screens */
+  }
+
+  #block-rrssb-rrssb {
+    padding-bottom: 25px;
+  }
+}
