@@ -199,6 +199,10 @@ th {
   padding: 0;
 }
 
+.slick-track {
+  display: flex;
+  align-items: centre;
+}
 .slick-initialized .slick-slide {
   padding: 0 35px;
 }
@@ -405,7 +409,7 @@ th {
   margin: 10px 35px;
 }
 
-/*Brochure images (maybe pre CKEditor)*/
+/*Brochure images*/
 #node-71 img.img-responsive, #node-102 img.img-responsive {
   float: right;
   padding-left: 15px;
@@ -569,6 +573,7 @@ input.form-control {
   background-color: #002a5b;
 }
 
+/*unknown cc element*/
 input#edit-search-block-form--2 {
   height: 43px;
 }
@@ -577,6 +582,7 @@ input#edit-search-block-form--2 {
   float: right;
 }
 
+/*Footer*/
 .top-right {
   text-align: right;
 }
@@ -660,6 +666,7 @@ input#edit-search-block-form--2 {
   }
 }
 
+/*Apple devices media queries*/
 @media screen and (device-aspect-ratio: 40/71) {
   .media--background {
     height: 300px;
