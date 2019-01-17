@@ -103,11 +103,6 @@ td, th {
   padding: 5px 10px 5px 10px;
 }
 
-th {
-  color: #002A5B;
-  font-weight: 600 !important;
-}
-
 .btn-default:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
