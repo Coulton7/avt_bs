@@ -398,12 +398,6 @@ td, th {
   margin: 10px 35px;
 }
 
-/*Brochure images*/
-#node-71 img.img-responsive, #node-102 img.img-responsive {
-  float: right;
-  padding-left: 15px;
-}
-
 .field-download .file-icon {
   display: none;
 }
