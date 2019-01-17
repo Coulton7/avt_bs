@@ -195,7 +195,7 @@ td, th {
 
 .slick-track {
   display: flex;
-  align-items: centre;
+  align-items: center;
 }
 .slick-initialized .slick-slide {
   padding: 0 35px;
