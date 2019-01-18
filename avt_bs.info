@@ -36,3 +36,5 @@ stylesheets[all][] = css/avtfonts-style.css
 stylesheets[all][] = css/avtregions-style.css
 stylesheets[all][] = css/avtblock-style.css
 stylesheets[all][] = css/avtfield-style.css
+
+scripts[] = js/headerbuttons.js
