@@ -1,7 +1,7 @@
 name = AVT Theme
 description = AVT reliability sub-theme
 core = 7.x
-base theme = bootstrap
+base theme = aesbs337
 
 
 ;;;;;;;;;;;;;;;;;;;;;
