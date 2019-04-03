@@ -74,8 +74,8 @@
  * @ingroup templates
  */
 ?>
-<script type="text/javascript" src="/sites/default/files/cert-js/animatedcollapse.js"></script>
-<script type="text/javascript" src="/sites/default/files/cert-js/jquery.form.js "></script>
+<script type="text/javascript" src="/sites/all/themes/bootstrap/cert-js/animatedcollapse.js"></script>
+<script type="text/javascript" src="/sites/all/themes/bootstrap/cert-js/jquery.form.js "></script>
 <script type="text/javascript">
   animatedcollapse.addDiv('result', 'fade=1,speed=400,hide=1');
   animatedcollapse.init();
