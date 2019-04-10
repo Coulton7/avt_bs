@@ -136,7 +136,7 @@
 
 	<?php if ($page['navigation_col']): ?>
 		<div class="navigation_col">
-			<div class="text-center">
+			<div class="action-menu text-center">
 				<div class="col-sm-0 col-xs-0 fullscreen">
 				</div>
 				<div class="col-sm-12 col-xs-12 no-padding">
