@@ -147,7 +147,7 @@
 	<?php endif; ?>
 
 	<?php if ($page['preface']): ?>
-	<div class="preface front__flex-margin">
+	<div class="preface">
 			<?php print render($page['preface']);?>
 	</div>
 	<?php endif; ?>
