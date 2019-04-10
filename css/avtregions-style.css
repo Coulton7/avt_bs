@@ -10,11 +10,6 @@ html, body {
   height: 100%;
 }
 
-.main-container {
-  min-height: 100%;
-  overflow: hidden;
-}
-
 .breadcrumb-wrap {
   margin: 0 -15px;
   max-height: 40px;
