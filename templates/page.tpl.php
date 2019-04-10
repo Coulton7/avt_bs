@@ -89,7 +89,6 @@
 })(jQuery);
 </script>
 
-
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
 		<div class="row waveupper row-eq-height">
@@ -197,81 +196,93 @@
 <div class="main-container <?php print $container_class; ?>">
   <div class="container-fluid">
 	<div class="row">
+	 <div class="<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12 fullscreen'; }
+					else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; }
+					else { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; } ?>">
+
+          <?php if (!empty($title)): ?>
+  					<h1 class="page-header" id="page-main-heading"><?php print strstr($title, "®") ? str_replace("®", "<sup>®</sup>", $title) : $title; ?></h1>
+					<?php endif; ?>
+
+			<div class="<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; }
+														else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-12'; }
+														else { print 'col-sm-12'; }
+											?>">
+          <div class="breadcrumb-wrap">
+            <div class="container-fluid">
+              <div class="row">
+                  <?php if (!empty($breadcrumb)): print t("You are here") . $breadcrumb; endif;?>
+								</div>
+              </div>
+            </div>
+          </div>
 
 		<div class="tablet-fix">
-			<section class="
+		<section id="main-content" class="
 
-			<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
+		<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
 				else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9 col-md-push-3 col-sm-push-4'; }
-				else { print 'col-sm-4 col-md-6 col-md-push-3 col-sm-push-4'; } ?>">
+				else { print 'col-sm-4 col-md-6 col-md-push-3 col-sm-push-4'; } ?> fullscreen">
 
-				<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+			<div class="clearfix">
 				<?php if (!empty($page['highlighted'])): ?>
 					<div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
 				<?php endif; ?>
 
-				<!-- <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?> old breadcrumb location -->
-						<a id="main-content"></a>
+					<a id="main-content"></a>
 				<?php print render($title_prefix); ?>
-					<?php if (!empty($title)): ?>
-						<!---<h1 class="page-header" id="page-main-heading"><php print $title; ?></h1>-->
-					<?php endif; ?>
 
-		        <?php print render($title_suffix); ?>
+				<?php print render($title_suffix); ?>
 					<?php print $messages; ?>
+			</div>
 
-
-				<!--<div class="breadcrumb-wrap">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
-								<?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>  New breadcrumb location
-							</div>
-						</div>
-					</div>
-				</div>-->
-
-				</div>
-
-
-				<?php if (!empty($tabs)): ?>
-					<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
-						<?php print render($tabs); ?>
-					</div>
-				<?php endif; ?>
-
+			<div class="<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; }
+				else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-12 fullscreen'; }
+				else { print 'col-sm-12 fullscreen'; } ?>">
 				<div class="clearfix">
-					<?php if (!empty($page['help'])): ?>
-						<?php print render($page['help']); ?>
-					<?php endif; ?>
-				</div>
-				<?php if (!empty($action_links)): ?>
-					<ul class="action-links"><?php print render($action_links); ?></ul>
+					<?php if (!empty($tabs)): ?>
+							<?php print render($tabs); ?>
+						<?php endif; ?>
+					</div>
+			</div>
+
+
+			<div class="clearfix">
+				<?php if (!empty($page['help'])): ?>
+					<?php print render($page['help']); ?>
 				<?php endif; ?>
-				<?php print render($page['content']); ?>
+			</div>
 
-			</section>
-		</div>
+			<?php if (!empty($action_links)): ?>
+				<ul class="action-links"><?php print render($action_links); ?></ul>
+			<?php endif; ?>
 
-		<?php if (!empty($page['sidebar_first'])): ?>
-			<aside class="<?php if (empty($page['sidebar_second'])) { print 'col-sm-4 col-md-3 col-md-pull-9 col-sm-pull-8'; }
-						else { print 'col-sm-4 col-md-3 col-md-pull-6 col-sm-pull-8'; } ?>" role="complementary">
-				<?php print render($page['sidebar_first']); ?>
-			</aside>  <!-- /#sidebar-first -->
-		<?php endif; ?>
+			<?php print render($page['content']); ?>
+
+		</section>
+	</div>
+
+	<?php if (!empty($page['sidebar_first'])): ?>
+		<aside class="<?php if (empty($page['sidebar_second'])) { print 'col-sm-4 col-md-3 col-md-pull-9 col-sm-pull-8'; }
+					else { print 'col-sm-4 col-md-3 col-md-pull-6 col-sm-pull-8'; } ?>" role="complementary">
+			<?php print render($page['sidebar_first']); ?>
+		</aside>  <!-- /#sidebar-first -->
+	<?php endif; ?>
 
 		<?php if (!empty($page['sidebar_second'])): ?>
-			<aside class="col-sm-4 col-md-3" role="complementary">
+			<aside class="col-sm-4 col-md-3 hidden-xs hidden-sm" role="complementary">
 				<?php print render($page['sidebar_second']); ?>
 			</aside>  <!-- /#sidebar-second -->
 		<?php endif; ?>
-    </div>
+	</div>
+   </div>
   </div>
+ </div>
 
 
   	<?php if ($page['suffix']): ?>
 		<div class="suffix">
-			<?php print render($page['suffix']);?>
+				<?php print render($page['suffix']);?>
 		</div>
 	<?php endif; ?>
 
@@ -285,7 +296,7 @@
 				</aside>
 			<?php endif; ?>
 
-			<section id="main-content" class="
+			<section class="
 
 				<?php if (empty($page['postscript_fir']) && empty($page['postscript_last'])) { print 'col-sm-12'; }
 					else if (empty($page['postscript_fir']) || empty($page['postscript_last'])) { print 'col-sm-8 col-md-9'; }
@@ -313,20 +324,19 @@
 					</div>
 				</div>
 			<?php endif; ?>
-</div>
 
-<footer>
-	<?php if (!empty($page['footer'])): ?>
-  	<div class="footer <?php print $container_class; ?>">
-			<?php print render($page['footer']); ?>
-		</div>
-	<?php endif; ?>
-
-	<?php if ($page['footer_lower']): ?>
-			<div class="footer_lower <?php print $container_class; ?>">
-				<div class="section-shadow">
-					<?php print render($page['footer_lower']);?>
-				</div>
+		<footer>
+			<?php if (!empty($page['footer'])): ?>
+			  <div class="footer <?php print $container_class; ?> footer-background">
+				<?php print render($page['footer']); ?>
 			</div>
-	<?php endif; ?>
-</footer>
+			<?php endif; ?>
+
+			<?php if ($page['footer_lower']): ?>
+				<div class="footer_lower <?php print $container_class; ?> dark-grey-gradient">
+					<div class="section-shadow">
+						<?php print render($page['footer_lower']);?>
+					</div>
+				</div>
+			<?php endif; ?>
+		</footer>
