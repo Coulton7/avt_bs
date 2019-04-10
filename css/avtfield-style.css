@@ -576,7 +576,7 @@ input#edit-search-block-form--2 {
   text-align: right;
 }
 
-.socialmedia {
+.avt-socialmedia {
   float: right;
   font-size: 35px;
 }
@@ -638,7 +638,7 @@ input#edit-search-block-form--2 {
     text-align: center;
   }
 
-  .socialmedia {
+  .avt-socialmedia {
     float: none;
   }
 }
