@@ -196,14 +196,14 @@
 														else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-12'; }
 														else { print 'col-sm-12'; }
 											?>">
-          <div class="breadcrumb-wrap">
+          <!--<div class="breadcrumb-wrap">
             <div class="container-fluid">
               <div class="row">
                   <?php if (!empty($breadcrumb)): print t("You are here") . $breadcrumb; endif;?>
 								</div>
               </div>
             </div>
-          </div>
+          </div>-->
 
 		<div class="tablet-fix">
 		<section id="main-content" class="
