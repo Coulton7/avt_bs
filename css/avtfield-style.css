@@ -414,7 +414,7 @@ td, th {
   background-color: #dd1e25;
   height: 40px;
   text-align: center;
-  line-height: 40px;
+
   border-radius: 5px;
   box-shadow: 2px 2px 2px #888888;
   color: white;
@@ -469,7 +469,7 @@ td, th {
   background-color: #dd1e25;
   height: 40px;
   text-align: center;
-  line-height: 40px;
+
   border-radius: 5px;
   box-shadow: 2px 2px 2px #888888;
   color: white;
@@ -538,7 +538,7 @@ textarea.form-control, input.form-control {
 
 .top-line {
   margin-top: 0;
-  line-height: 1.5em;
+
 }
 
 a#black-button-footer.btn.btn-default.btn-lg:focus {
@@ -578,7 +578,7 @@ input#edit-search-block-form--2 {
 
 .avt-socialmedia {
   float: right;
-  font-size: 35px;
+
 }
 
 .media--background {
