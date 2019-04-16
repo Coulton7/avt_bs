@@ -456,36 +456,6 @@
   margin-bottom: 0 !important;
 }
 
-/*tabbed content*/
-#block-block-9 {
-  padding: 80px 0 0;
-  background-size: cover;
-  background-position: bottom;
-  background-color: #002a5b !important;
-}
-
-/* find out more button */
-#block-block-9 .main-header-button {
-  padding: 10px 20px 10px 20px;
-  color: #ffffff;
-  border: 2px solid #cbccce;
-  border-radius: 25px;
-  transition: 0.5s;
-}
-
-/* find out more button */
-#block-block-9 .main-header-button:hover {
-  color: black;
-  background-color: #cbccce;
-  transition: 0.5s;
-}
-
-/* find out more button */
-#block-block-9 p:last-child {
-  text-align: center;
-  margin-top: 40px;
-}
-
 /* remove bootstrap styling */
 #block-block-8 .nav-tabs>li.active>a, #block-block-8 .nav-tabs>li.active>a:focus {
   box-shadow: none;
@@ -717,9 +687,6 @@ section.block-menu-block .block-title {
     background-attachment: initial;
   }
 
-  #block-block-9 {
-    background-attachment: initial;
-  }
 
   /* more spacing above and below search bar on mobile */
   #block-search-form {
@@ -801,10 +768,6 @@ section.block-menu-block .block-title {
     background-color: #002a5b;
   }
 
-  #block-block-9 {
-    background-image: none;
-    background-color: #002a5b;
-  }
 }
 
 /*Unique RRSSB CSS*/
