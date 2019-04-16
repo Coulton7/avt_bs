@@ -614,6 +614,12 @@ input#edit-search-block-form--2 {
     padding-bottom: 125px;
   }
 
+  .nav .menu .last.leaf{
+    float: none;
+    background-color: inherit;
+    color: inherit;
+  }
+
   .nav-tabs>li.tabs-left {
     float: none;
   }
