@@ -22,6 +22,94 @@
   background-repeat: no-repeat;
 }
 
+.slick-slider {
+  color: white;
+}
+
+
+.slide-active {
+  background-color: #e5e5e7;
+}
+
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.slick-initialized .slick-slide {
+  /* padding between each item */
+  padding: 0 35px;
+}
+
+.slide-title, .slide-description {
+  -webkit-animation-duration: .6s;
+  animation-duration: .6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeOutLeft;
+  animation-name: fadeOutLeft;
+}
+
+.home-tab-image{
+  opacity: 0;
+}
+
+.animated{
+  -webkit-animation-duration: .6s;
+  animation-duration: .6s;
+}
+
+.slick-current .slide-title, .slick-current .slide-description, .slick-current .nav-arrows {
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+  -webkit-animation-duration: .6s;
+  animation-duration: .6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+.slick-current .slide-description {
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+
+.slick-current .nav-arrows {
+  -webkit-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+
+.slide-1{
+  background-image: url('images/slides_01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide-2{
+  background-image: url('images/slides_02.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide-3{
+  background-image: url('images/slides_03.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide-4{
+  background-image: url('images/slides_04.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide-5{
+  background-image: url('images/slides_05.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #block-block-11 {
   /* navigation on the homepage */
   height: 46px;
@@ -730,3 +818,6 @@ section.block-menu-block .block-title {
     padding-bottom: 25px;
   }
 }
+
+@-webkit-keyframes fadeIn{0%{opacity: 0;}100%{opacity: 1;}}
+@keyframes fadeIn{0%{opacity: 0;}100%{opacity: 1;}}
