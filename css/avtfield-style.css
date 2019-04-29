@@ -607,6 +607,13 @@ td, th {
   padding: 20px 0;
 }
 
+.view-analysis-enquiry .view-content .views-row .entity a{
+  color: #ffffff;
+  pointer-events: none;
+  cursor: default;
+  border-bottom: none;
+}
+
 .field-thumbnail, .view .field-image {
   float: right;
   display: inline;
