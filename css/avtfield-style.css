@@ -16,7 +16,6 @@ nav .menu .last.leaf a:hover{
   color:#cccccc;
 }
 
-
 .float-right {
   float: right;
 }
@@ -429,6 +428,10 @@ td, th {
   background-image: url('images/Slide-05.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.red-bullet li{
+  list-style: none;
 }
 
 .field-name-field-current-page-title {
