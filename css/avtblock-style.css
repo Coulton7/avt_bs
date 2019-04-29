@@ -400,6 +400,10 @@ section#block-views-slick-carousel-block {
   margin-top: -100px;
 }
 
+.rrssb-buttons li a{
+  border-bottom: none;
+}
+
 /* light grey background */
 .ca-grey-block {
   width: 100%;
