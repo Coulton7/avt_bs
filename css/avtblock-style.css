@@ -278,6 +278,10 @@
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
+#block-views-exp-resource-search-page .views-exposed-widgets{
+  display: block;
+}
+
 #block-views-exp-resource-search-page .form-control {
   /* spacing and border on fields */
   padding: 10px;
@@ -299,6 +303,12 @@
 
 #block-views-exp-resource-search-page .views-submit-button button {
   background-color: #e01f1f !important;
+  border-color: #e01f1f;
+}
+
+#block-views-exp-resource-search-page .views-submit-button button:hover {
+  background-color: #e33535 !important;
+  border-color: #e33535;
 }
 
 #block-views-exp-resource-search-page .views-submit-button button:active {
