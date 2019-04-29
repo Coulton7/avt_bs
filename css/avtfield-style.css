@@ -394,31 +394,31 @@ td, th {
 }
 
 .slide-1{
-  background-image: url('images/slides_01.jpg');
+  background-image: url('images/Slide-01.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slide-2{
-  background-image: url('images/slides_02.jpg');
+  background-image: url('images/Slide-02.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slide-3{
-  background-image: url('images/slides_03.jpg');
+  background-image: url('images/Slide-03.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slide-4{
-  background-image: url('images/slides_04.jpg');
+  background-image: url('images/Slide-04.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slide-5{
-  background-image: url('images/slides_05.jpg');
+  background-image: url('images/Slide-05.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
