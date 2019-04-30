@@ -13,7 +13,7 @@ function avt_bs_preprocess_page(&$vars) {
 	drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/logoscroll.js');
 	drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/fade-text.js');
   drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/contact-icon.js');
-  drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/reg-mark.min.js');
+  drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/reg-mark.js');
 }
 
 function avt_bs_theme(){
