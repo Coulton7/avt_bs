@@ -613,6 +613,13 @@ td, th {
   border-bottom: none;
 }
 
+.view-general-enquiry .view-content .views-row .entity a{
+  color:#002a5b;
+  pointer-events: none;
+  cursor: default;
+  border-bottom: none;
+}
+
 .field-thumbnail, .view .field-image {
   float: right;
   display: inline;
