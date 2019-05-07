@@ -74,4 +74,4 @@ $img = new Securimage();
 
 $img->show();  // outputs the image and content headers to the browser
 // alternate use:
-$img->show( '/home/fivered/public_html/avtce/backgrounds/code-bg.png' );
+$img->show( '/sites/avtdev3.pinnseal.com/files/cert-images/code-bg.png' );

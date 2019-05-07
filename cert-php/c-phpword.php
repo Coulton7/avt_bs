@@ -14,7 +14,7 @@ $securimage = new Securimage();
 
 if ($securimage->check($_POST['ct_captcha']) == false) {
 echo '<div class="success">
-<div class="notice"><img src="/sites/avtdev3.pinnseal.com/files/error.png" width="64" height="64" align="absmiddle" />��֤�벻��ȷ��</div>
+<div class="notice"><img src="sites/avtdev3.pinnseal.com/files/cert-images/error.png" width="64" height="64" align="absmiddle" />��֤�벻��ȷ��</div>
 </div>';
 exit();
 }
