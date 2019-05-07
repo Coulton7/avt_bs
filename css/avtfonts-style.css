@@ -70,6 +70,10 @@ p.header-title-summary {
   padding: 20px;
 }
 
+.red-bullet{
+  padding-left: 0;
+}
+
 p.vibration-paragraph-fix {
   clear: both;
 }
