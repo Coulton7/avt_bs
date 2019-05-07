@@ -402,30 +402,35 @@ td, th {
 
 .slide-1{
   background-image: url('images/Slide-01.jpg');
+  background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slide-2{
   background-image: url('images/Slide-02.jpg');
+  background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slide-3{
   background-image: url('images/Slide-03.jpg');
+  background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slide-4{
   background-image: url('images/Slide-04.jpg');
+  background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slide-5{
   background-image: url('images/Slide-05.jpg');
+  background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
 }
