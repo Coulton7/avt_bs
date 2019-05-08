@@ -761,7 +761,7 @@ input#edit-search-block-form--2 {
     display: none;
   }
 
-  .nav .menu .last.leaf {
+  nav .menu .last.leaf {
     float: none;
     background-color: inherit;
     color: inherit;
