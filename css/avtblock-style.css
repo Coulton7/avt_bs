@@ -181,8 +181,8 @@
 }
 
 #hexagon-wrap-front .hexagon-in2.hexagon-inside{
-  background: transparent;
-  background-color: transparent;
+  background: #000000;
+  background-color: #000000;
 }
 
 #hexagon-wrap-consulting .hexagon-top .hexagon-in2.hexagon-inside {
