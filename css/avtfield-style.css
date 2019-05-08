@@ -406,38 +406,62 @@ td, th {
 }
 
 .slide-1{
-  background-image: url('images/Slide-01.jpg');
+  background-image: url('/sites/avtdev3.pinnseal.com/files/graphics/home/Slide-01.jpg');
   background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slide-2{
-  background-image: url('images/Slide-02.jpg');
+  background-image: url('/sites/avtdev3.pinnseal.com/files/graphics/home/Slide-02.jpg');
   background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slide-3{
-  background-image: url('images/Slide-03.jpg');
+  background-image: url('/sites/avtdev3.pinnseal.com/files/graphics/home/Slide-03.jpg');
   background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slide-4{
-  background-image: url('images/Slide-04.jpg');
+  background-image: url('/sites/avtdev3.pinnseal.com/files/graphics/home/Slide-04.jpg');
   background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slide-5{
-  background-image: url('images/Slide-05.jpg');
+  background-image: url('/sites/avtdev3.pinnseal.com/files/graphics/home/Slide-05.jpg');
   background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+a.slider-button {
+  list-style-type: none;
+  padding: 0.55em 1.2em;
+  display: inline-block;
+  background: #002A5B;
+  color: #ffffff;
+  border-bottom: none;
+  width: auto;
+  line-height: 1.2em;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  text-shadow: none;
+  margin-left: 1em;
+}
+
+a.slider-button:hover {
+  background: #004a8c;
+  margin-bottom: 0;
+  color: #ffffff;
+  width: auto;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
 }
 
 .red-bullet li{
