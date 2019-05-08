@@ -682,13 +682,13 @@ section.block-menu-block .block-title {
     width: 70%;
   }
   .hexagon-iceberg{
-    width: 8.6em;
+    margin-top: -8.6em;
   }
 }
 
 @media screen and (min-width: 1200px){
   .hexagon-iceberg{
-    width: 7.6em;
+    margin-top: -7.6em;
   }
 }
 

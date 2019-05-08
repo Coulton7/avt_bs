@@ -336,11 +336,8 @@ td, th {
 
 .home-tab-image {
   display: none;
-  margin-top: -50px;
-}
-
-.home-tab-image.current {
-  display: inline-block;
+  position: absolute;
+  bottom: 0;
 }
 
 .slick-slider {
@@ -441,7 +438,7 @@ td, th {
   background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;  
+  background-position: center;
 }
 
 .nav-arrows a {
@@ -838,6 +835,9 @@ input#edit-search-block-form--2 {
   .laptop {
     top: -7em;
   }
+  .slide-img-fill{
+    height: auto;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -847,6 +847,9 @@ input#edit-search-block-form--2 {
 
   .laptop {
     top: -9em;
+  }
+  .slide-img-fill{
+    height: 100%;
   }
 }
 
