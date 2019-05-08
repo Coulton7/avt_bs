@@ -123,6 +123,7 @@
 
 .front .hexagon-col{
   z-index: 0;
+  position: absolute;
 }
 
 .hexagon {
