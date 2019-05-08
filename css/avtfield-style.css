@@ -358,8 +358,7 @@ td, th {
 }
 
 #block-block-9 .slick-initialized .slick-slide {
-  /* padding between each item */
-  padding: 0;
+  padding: 4em 3em 0;
 }
 
 .slick-block-margin {
