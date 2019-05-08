@@ -346,12 +346,11 @@ td, th {
   color: white;
 }
 
-
 .slide-active {
   background-color: #e5e5e7;
 }
 
-.slick-track {
+#block-block-9 .slick-track {
   display: flex;
   align-items: center;
   background-color: #002a5b;
