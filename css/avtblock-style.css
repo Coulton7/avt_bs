@@ -114,6 +114,10 @@
   z-index: 1;
 }
 
+.front .hexagon-col{
+  z-index: 0;
+}
+
 .hexagon {
   overflow: hidden;
   visibility: hidden;
