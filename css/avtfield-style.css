@@ -767,6 +767,19 @@ input#edit-search-block-form--2 {
     color: inherit;
   }
 
+  nav .menu .last.leaf a{
+    color: inherit;
+  }
+
+  nav .menu .last.leaf a:hover{
+    color: inherit;
+  }
+
+  .navbar-collapse{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .nav-tabs>li.tabs-left {
     float: none;
   }
