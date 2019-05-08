@@ -665,7 +665,7 @@ section.block-menu-block .block-title {
   }
 }
 
-@media (max-width: 1200px) {
+@media screen and (min-width: 992px) {
   .avt-helix {
     right: -135px !important;
   }
@@ -680,6 +680,15 @@ section.block-menu-block .block-title {
 
   #block-views-exp-search-page #edit-search-api-views-fulltext--2-wrapper {
     width: 70%;
+  }
+  .hexagon-iceberg{
+    width: 8.6em;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .hexagon-iceberg{
+    width: 7.6em;
   }
 }
 
