@@ -2,18 +2,18 @@
   text-align: center;
 }
 
-nav .menu .last.leaf{
+nav .menu .last.leaf {
   float: right;
   background-color: #dd1e25;
   color: white;
 }
 
-nav .menu .last.leaf a{
-  color:#ffffff;
+nav .menu .last.leaf a {
+  color: #ffffff;
 }
 
-nav .menu .last.leaf a:hover{
-  color:#cccccc;
+nav .menu .last.leaf a:hover {
+  color: #cccccc;
 }
 
 .float-right {
@@ -75,11 +75,11 @@ nav .menu .last.leaf a:hover{
   border-bottom: 1px solid #e5e5e7;
 }
 
-.view-key-personnel .views-row a{
+.view-key-personnel .views-row a {
   border-bottom: none;
 }
 
-.view-key-personnel .views-row a:hover{
+.view-key-personnel .views-row a:hover {
   border-bottom: none;
 }
 
@@ -218,6 +218,7 @@ td, th {
   display: flex;
   align-items: center;
 }
+
 .slick-initialized .slick-slide {
   padding: 0 35px;
 }
@@ -361,7 +362,7 @@ td, th {
   padding: 0;
 }
 
-.slick-block-margin{
+.slick-block-margin {
   margin-top: 2.25em;
 }
 
@@ -374,11 +375,11 @@ td, th {
   animation-name: fadeOutLeft;
 }
 
-.home-tab-image{
+.home-tab-image {
   opacity: 0;
 }
 
-.animated{
+.animated {
   -webkit-animation-duration: .6s;
   animation-duration: .6s;
 }
@@ -404,35 +405,35 @@ td, th {
   animation-delay: 1.6s;
 }
 
-.slide-1{
+.slide-1 {
   background-image: url('/sites/avtdev3.pinnseal.com/files/graphics/home/Slide-01.jpg');
   background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.slide-2{
+.slide-2 {
   background-image: url('/sites/avtdev3.pinnseal.com/files/graphics/home/Slide-02.jpg');
   background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.slide-3{
+.slide-3 {
   background-image: url('/sites/avtdev3.pinnseal.com/files/graphics/home/Slide-03.jpg');
   background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.slide-4{
+.slide-4 {
   background-image: url('/sites/avtdev3.pinnseal.com/files/graphics/home/Slide-04.jpg');
   background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.slide-5{
+.slide-5 {
   background-image: url('/sites/avtdev3.pinnseal.com/files/graphics/home/Slide-05.jpg');
   background-color: #002a5b;
   background-repeat: no-repeat;
@@ -469,7 +470,7 @@ a.slider-button:hover {
   border-radius: 10px;
 }
 
-.red-bullet li{
+.red-bullet li {
   list-style: none;
 }
 
@@ -551,7 +552,7 @@ a.slider-button:hover {
 }
 
 /*Brochure images*/
-#node-71 img.img-responsive{
+#node-71 img.img-responsive {
   float: right;
   padding-left: 15px;
 }
@@ -620,7 +621,6 @@ a.slider-button:hover {
   background-color: #dd1e25;
   height: 40px;
   text-align: center;
-
   border-radius: 5px;
   box-shadow: 2px 2px 2px #888888;
   color: white;
@@ -645,15 +645,15 @@ a.slider-button:hover {
   padding: 20px 0;
 }
 
-.view-analysis-enquiry .view-content .views-row .entity a{
+.view-analysis-enquiry .view-content .views-row .entity a {
   color: #ffffff;
   pointer-events: none;
   cursor: default;
   border-bottom: none;
 }
 
-.view-general-enquiry .view-content .views-row .entity a{
-  color:#002a5b;
+.view-general-enquiry .view-content .views-row .entity a {
+  color: #002a5b;
   pointer-events: none;
   cursor: default;
   border-bottom: none;
@@ -703,7 +703,6 @@ textarea.form-control, input.form-control {
 
 .top-line {
   margin-top: 0;
-
 }
 
 a#black-button-footer.btn.btn-default.btn-lg:focus {
@@ -746,7 +745,6 @@ input#edit-search-block-form--2 {
 
 .avt-socialmedia {
   float: right;
-
 }
 
 .media--background {
@@ -763,7 +761,7 @@ input#edit-search-block-form--2 {
     display: none;
   }
 
-  .nav .menu .last.leaf{
+  .nav .menu .last.leaf {
     float: none;
     background-color: inherit;
     color: inherit;
@@ -813,12 +811,20 @@ input#edit-search-block-form--2 {
 }
 
 @media screen and (min-width: 768px) {
+  .navbar-nav {
+    padding-left: 7.5em;
+  }
+
   .laptop {
     top: -7em;
   }
 }
 
 @media screen and (min-width: 992px) {
+  .navbar-nav {
+    padding-left: 15em;
+  }
+
   .laptop {
     top: -9em;
   }

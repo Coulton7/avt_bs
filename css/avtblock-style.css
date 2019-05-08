@@ -278,7 +278,7 @@
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
-#block-views-exp-resource-search-page .views-exposed-widgets{
+#block-views-exp-resource-search-page .views-exposed-widgets {
   display: block;
 }
 
@@ -363,8 +363,7 @@
 }
 
 /* Home page header text */
-#block-block-7 h1 {
-}
+#block-block-7 h1 {}
 
 /* tabs on header */
 #block-block-8 {
@@ -397,7 +396,7 @@ section#block-views-slick-carousel-block {
   margin-top: -100px;
 }
 
-.rrssb-buttons li a{
+.rrssb-buttons li a {
   border-bottom: none;
 }
 
@@ -474,7 +473,7 @@ section.block-menu-block .block-title {
   margin-right: 15px;
 }
 
-  /* contact us well block */
+/* contact us well block */
 #block-block-16 {
   padding-top: 40px;
 }
@@ -518,7 +517,6 @@ section.block-menu-block .block-title {
 
 #block-rrssb-rrssb {
   text-align: center;
-
   margin-bottom: 20px;
   max-width: 60vw;
   margin: 0px auto;
@@ -538,7 +536,6 @@ section.block-menu-block .block-title {
 
 /*social buttons footer*/
 #follow-us {
-
   vertical-align: middle;
 }
 
@@ -609,7 +606,6 @@ section.block-menu-block .block-title {
   #breadcrumb-extension-about {
     background-attachment: initial;
   }
-
 
   /* more spacing above and below search bar on mobile */
   #block-search-form {
@@ -690,7 +686,6 @@ section.block-menu-block .block-title {
     background-image: none;
     background-color: #002a5b;
   }
-
 }
 
 /*Unique RRSSB CSS*/
@@ -705,5 +700,22 @@ section.block-menu-block .block-title {
   }
 }
 
-@-webkit-keyframes fadeIn{0%{opacity: 0;}100%{opacity: 1;}}
-@keyframes fadeIn{0%{opacity: 0;}100%{opacity: 1;}}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
