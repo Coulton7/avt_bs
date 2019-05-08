@@ -356,9 +356,9 @@ td, th {
   align-items: center;
 }
 
-.slick-initialized .slick-slide {
+#block-block-9 .slick-initialized .slick-slide {
   /* padding between each item */
-  padding: 0 35px;
+  padding: 0;
 }
 
 .slide-title, .slide-description {
