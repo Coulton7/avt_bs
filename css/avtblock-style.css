@@ -187,6 +187,9 @@
 
 #hexagon-wrap-front .hexagon-top .hexagon-in2.hexagon-inside{
   background-image: url('/sites/all/themes/avt_bs/images/AVT-Helix.jpg');
+  background-size: contain;
+  background-position: center;
+  width: 100%;
 }
 
 #hexagon-wrap-consulting .hexagon-top .hexagon-in2.hexagon-inside {
