@@ -409,6 +409,7 @@ td, th {
   background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .slide-2 {
@@ -416,6 +417,7 @@ td, th {
   background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .slide-3 {
@@ -423,6 +425,7 @@ td, th {
   background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .slide-4 {
@@ -430,6 +433,7 @@ td, th {
   background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .slide-5 {
@@ -437,6 +441,7 @@ td, th {
   background-color: #002a5b;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;  
 }
 
 .nav-arrows a {
