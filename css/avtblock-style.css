@@ -164,6 +164,11 @@
   background-color: #fff;
 }
 
+#hexagon-wrap-front .hexagon-in2.hexagon-inside{
+  background: transparent;
+  background-color: transparent;
+}
+
 #hexagon-wrap-consulting .hexagon-top .hexagon-in2.hexagon-inside {
   background-image: url('/sites/avtdev3.pinnseal.com/files/graphics/hextop-consultancy-1.png');
 }
