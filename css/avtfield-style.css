@@ -354,11 +354,16 @@ td, th {
 .slick-track {
   display: flex;
   align-items: center;
+  background-color: #002a5b;
 }
 
 #block-block-9 .slick-initialized .slick-slide {
   /* padding between each item */
   padding: 0;
+}
+
+.slick-block-margin{
+  margin-top: 2.25em;
 }
 
 .slide-title, .slide-description {
@@ -727,11 +732,6 @@ input#edit-search-block-form--2 {
 @media screen and (max-width: 767px) {
   .home-tab-image-wrap {
     display: none;
-  }
-
-  #block-block-9 {
-    padding-top: 30px;
-    padding-bottom: 125px;
   }
 
   .nav .menu .last.leaf{
