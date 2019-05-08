@@ -821,6 +821,9 @@ input#edit-search-block-form--2 {
   .avt-socialmedia {
     float: none;
   }
+  input.form-control{
+    padding: inherit;
+  }
 }
 
 @media screen and (min-width: 768px) {
