@@ -440,6 +440,12 @@ td, th {
   background-size: cover;
 }
 
+.nav-arrows a {
+  color: #002a5b;
+  text-shadow: 0 0 3px #ffffff;
+  margin-right: 1em;
+}
+
 a.slider-button {
   list-style-type: none;
   padding: 0.55em 1.2em;
