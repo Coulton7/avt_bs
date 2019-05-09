@@ -125,6 +125,10 @@ td, th {
   padding: 5px 10px 5px 10px;
 }
 
+a.btn-default{
+  border: 1px solid #e5e5e7; 
+}
+
 .btn-default:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
