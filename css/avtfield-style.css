@@ -447,6 +447,10 @@ td, th {
   margin-right: 1em;
 }
 
+.nav-arrows a:hover {
+  color: #9a151a;
+}
+
 a.slider-button {
   list-style-type: none;
   padding: 0.55em 1.2em;
@@ -768,15 +772,15 @@ input#edit-search-block-form--2 {
     color: inherit;
   }
 
-  nav .menu .last.leaf a{
+  nav .menu .last.leaf a {
     color: inherit;
   }
 
-  nav .menu .last.leaf a:hover{
+  nav .menu .last.leaf a:hover {
     color: inherit;
   }
 
-  .navbar-collapse{
+  .navbar-collapse {
     padding-left: 0;
     padding-right: 0;
   }
@@ -822,7 +826,8 @@ input#edit-search-block-form--2 {
   .avt-socialmedia {
     float: none;
   }
-  input.form-control{
+
+  input.form-control {
     padding: inherit;
   }
 }
@@ -835,7 +840,8 @@ input#edit-search-block-form--2 {
   .laptop {
     top: -7em;
   }
-  .slide-img-fill{
+
+  .slide-img-fill {
     height: auto;
   }
 }
@@ -848,7 +854,8 @@ input#edit-search-block-form--2 {
   .laptop {
     top: -9em;
   }
-  .slide-img-fill{
+
+  .slide-img-fill {
     height: 100%;
   }
 }
