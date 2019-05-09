@@ -451,6 +451,11 @@ td, th {
   color: #9a151a;
 }
 
+.sub-icon {
+  bottom: -0.25em;
+  position: relative;
+}
+
 a.slider-button {
   list-style-type: none;
   padding: 0.55em 1.2em;
