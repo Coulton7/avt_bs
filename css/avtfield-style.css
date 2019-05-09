@@ -405,6 +405,33 @@ a.btn-default{
   animation-delay: 1.6s;
 }
 
+.slick-prev, .slick-next{
+  width: 80px;
+  height: 3em;
+  z-index: 25;
+}
+
+.slick-prev:before{
+  font-family: "Font Awesome 5 Free";
+  content: "\f0d9";
+  font-size: 3em;
+  color: #002a5b;
+  text-shadow: 0 0 3px #ffffff;
+  margin-right: 1em;
+}
+
+.slick-next:before{
+  font-family: "Font Awesome 5 Free";
+  content: "\f0da";
+  font-size: 3em;
+  color: #002a5b;
+  text-shadow: 0 0 3px #ffffff;
+}
+
+.slick-next:hover::before, .slick-prev:hover::before{
+  color:color: #9a151a;
+}
+
 .slide-1 {
   background-image: url('/sites/avtdev3.pinnseal.com/files/graphics/home/Slide-01.jpg');
   background-color: #002a5b;
