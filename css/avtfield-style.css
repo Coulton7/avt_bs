@@ -126,7 +126,7 @@ td, th {
 }
 
 a.btn-default{
-  border: 1px solid #e5e5e7; 
+  border: 1px solid #e5e5e7;
 }
 
 .btn-default:hover {
@@ -855,7 +855,7 @@ input#edit-search-block-form--2 {
   }
 
   .slide-img-fill {
-    height: auto;
+    height: 100%;
   }
 }
 
