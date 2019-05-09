@@ -409,6 +409,7 @@ a.btn-default{
   position: absolute;
   top: 40%;
   z-index: 2;
+  cursor: pointer;
 }
 
 .prev-slick{
