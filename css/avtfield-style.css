@@ -405,27 +405,25 @@ a.btn-default{
   animation-delay: 1.6s;
 }
 
-.slick-prev, .slick-next{
-  width: 80px;
-  height: 3em;
-  z-index: 1;
+.prev-slick, .next-slick{
+  position: absolute;
+  top: 40%;
+  z-index: 2;
 }
 
-.slick-prev:before{
-  font-family: "Font Awesome 5 Free";
-  content: "\f0d9";
-  font-size: 3em;
+.prev-slick{
   color: #002a5b;
   text-shadow: 0 0 3px #ffffff;
-  margin-right: 1em;
 }
 
-.slick-next:before{
-  font-family: "Font Awesome 5 Free";
-  content: "\f0da";
-  font-size: 3em;
+.next-slick{
   color: #002a5b;
   text-shadow: 0 0 3px #ffffff;
+  right: 0;
+}
+
+.prev-slick:hover, .next-slick:hover{
+  color: #9a151a;
 }
 
 .slick-next:hover::before, .slick-prev:hover::before{
