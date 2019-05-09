@@ -346,9 +346,7 @@
 
 	<?php if ($page['footer_lower']): ?>
 			<div class="footer_lower <?php print $container_class; ?>">
-				<div class="section-shadow">
 					<?php print render($page['footer_lower']);?>
-				</div>
 			</div>
 	<?php endif; ?>
 </footer>
