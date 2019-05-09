@@ -405,6 +405,15 @@ a.btn-default{
   animation-delay: 1.6s;
 }
 
+.slick-arrow-active{
+  -webkit-animation-duration: .6s;
+  animation-duration: .6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
 .prev-slick, .next-slick{
   position: absolute;
   top: 40%;
