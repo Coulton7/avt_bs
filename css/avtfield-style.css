@@ -384,7 +384,7 @@ a.btn-default{
   animation-duration: .6s;
 }
 
-.slick-current .slide-title, .slick-current .slide-description, .slick-current .nav-arrows {
+.slick-current .slide-title, .slick-current .slide-description, .slick-current .nav-arrows .slider-button {
   -webkit-animation-delay: 1.2s;
   animation-delay: 1.2s;
   -webkit-animation-duration: .6s;
@@ -400,7 +400,7 @@ a.btn-default{
   animation-delay: 1.4s;
 }
 
-.slick-current .nav-arrows {
+.slick-current .nav-arrows .slider-button {
   -webkit-animation-delay: 1.6s;
   animation-delay: 1.6s;
 }
