@@ -30,6 +30,10 @@ p.header-title-summary {
   display: inline;
 }
 
+a.panel-outline{
+  color: #ddd;
+}
+
 .navbar-default .navbar-brand {
   color: #dd1e25;
 }
