@@ -581,6 +581,10 @@ a.slider-button:hover {
   background: #fa010a;
 }
 
+.rrssb{
+  padding-right: 0!important;
+}
+
 .view-news {
   margin: 0 auto;
 }
