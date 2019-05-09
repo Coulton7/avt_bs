@@ -424,12 +424,13 @@ a.btn-default{
 .prev-slick{
   color: #002a5b;
   text-shadow: 0 0 3px #ffffff;
+  left:1em;
 }
 
 .next-slick{
   color: #002a5b;
   text-shadow: 0 0 3px #ffffff;
-  right: 0;
+  right: 1em;
 }
 
 .prev-slick:hover, .next-slick:hover{
