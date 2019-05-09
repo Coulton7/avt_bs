@@ -589,13 +589,15 @@ section.block-menu-block .block-title {
 #block-menu-menu-footer-menu a:hover {
   text-decoration: none;
   background-color: #e5e5e7;
-  color: black;
+  color: #535454;
+  border-bottom: none;
 }
 
 #block-menu-menu-footer-menu .active {
   text-decoration: none;
   background-color: #e5e5e7;
-  color: black;
+  color: #535454;
+  border-bottom: none;
 }
 
 #block-fieldblock-node-page-default-field-slideshowfield {

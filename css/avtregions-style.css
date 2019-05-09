@@ -91,6 +91,7 @@ html, body {
 #block-menu-menu-menu-footer-menu ul .leaf a:hover {
   color: #535454;
   background-color: #e5e5e7;
+  border-bottom: none;
 }
 
 .darkgrey-footer {
