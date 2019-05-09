@@ -9,10 +9,12 @@ blockquote {
 .header-title-1 {
   color: #ffffff;
   margin-bottom: 11.5px;
+  line-height: 1;
 }
 
 .header-title-2 {
   color: #ffffff;
+  line-height: 1;
 }
 
 p.header-title-summary {
