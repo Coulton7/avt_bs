@@ -10,6 +10,10 @@ function avt_bs_preprocess_page(&$vars) {
         $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type;
     }
 
+     else if (isset($variables['node']->type)) {
+   $variables['theme_hook_suggestions'][] = 'page__' . $variables['node']->title;
+   }
+
 	drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/logoscroll.js');
 	drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/fade-text.js');
   drupal_add_js(drupal_get_path('theme', 'avt_bs').'/js/animatedcollapse.js');
