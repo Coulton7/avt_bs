@@ -4,7 +4,7 @@ error_reporting(0);
 $file_dir = "/sites/avtdev3.pinnseal.com/files/filerepository/";
 
 //DONT CHANGE ANYTHING BELOW HERE--------------------------------------------------------------------------------------------------------------------
-header('Content-Type: text/html; charset=iso-8859-1');
+header('Content-Type: text/html; charset= utf-8');
 //$userDoc = $file_dir.$_POST['prefix'].$_POST['set1'].$_POST['set2'].$_POST['set3'].".doc";
 $userDoc = $file_dir.$_POST['prefix'].$_POST['set1'].$_POST['set2'].$_POST['set3'];
 //echo $userDoc;
