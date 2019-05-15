@@ -11,6 +11,10 @@ html, body {
   background-color: #f5f5f5;
 }
 
+.region-content{
+  margin: 1em;
+}
+
 .container-media-fluid {
   margin-right: auto;
   margin-left: auto;
