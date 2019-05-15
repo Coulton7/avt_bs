@@ -580,9 +580,12 @@ section.block-menu-block .block-title {
 }
 
 /* Main dark grey block footer */
-#block-block-1 {
+.footer_lower {
   background-color: #4F4F4F;
-  padding: 50px 0 10px;
+}
+
+.bottom-footer-block{
+  padding: 50px 0 10px
 }
 
 /*social buttons footer*/
