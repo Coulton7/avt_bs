@@ -126,6 +126,10 @@
   position: absolute;
 }
 
+.front .block-search{
+  z-index: 3;
+}
+
 .hexagon {
   overflow: hidden;
   visibility: hidden;
