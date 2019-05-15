@@ -791,6 +791,10 @@ input.form-control {
   background-color: #002a5b;
 }
 
+.front input#edit-search-block-form--2{
+  padding: 49px;
+}
+
 /*unknown css element*/
 input#edit-search-block-form--2 {
   height: 43px;
