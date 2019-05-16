@@ -121,12 +121,12 @@
   z-index: 1;
 }
 
-.front .hexagon-col{
+.front .hexagon-col {
   z-index: 2;
   position: absolute;
 }
 
-.front .block-search{
+.front .block-search {
   z-index: 3;
 }
 
@@ -175,7 +175,7 @@
   transform: rotate(-60deg);
 }
 
-.hexagon-iceberg{
+.hexagon-iceberg {
   margin-top: -7.6em;
 }
 
@@ -184,19 +184,19 @@
   background-color: #fff;
 }
 
-#hexagon-wrap-front .hexagon-in2.hexagon-inside{
+#hexagon-wrap-front .hexagon-in2.hexagon-inside {
   background: #cccccf;
   background-color: #cccccf;
 }
 
-#hexagon-wrap-front .hexagon-top .hexagon-in2.hexagon-inside{
+#hexagon-wrap-front .hexagon-top .hexagon-in2.hexagon-inside {
   background-image: url('/sites/all/themes/avt_bs/images/AVT-Helix.jpg');
   background-size: contain;
   background-position: center;
   width: 100%;
 }
 
-#hexagon-wrap-front .hexagon-right .hexagon-in2.hexagon-inside{
+#hexagon-wrap-front .hexagon-right .hexagon-in2.hexagon-inside {
   background-image: url('/files/graphics/home/machine-sentry-hexagon-1.png');
   background-size: contain;
   background-position: center;
@@ -204,11 +204,11 @@
   background-color: #eeeeee;
 }
 
-#hexagon-wrap-front .hexagon-right .hexagon-in2.hexagon-inside:hover{
+#hexagon-wrap-front .hexagon-right .hexagon-in2.hexagon-inside:hover {
   background-color: #cccccf;
 }
 
-#hexagon-wrap-front .hexagon-bottom .hexagon-in2.hexagon-inside{
+#hexagon-wrap-front .hexagon-bottom .hexagon-in2.hexagon-inside {
   background-image: url('/files/graphics/home/machine-sentry-hexagon-2.png');
   background-size: contain;
   background-position: center;
@@ -327,7 +327,7 @@
   width: 100%;
 }
 
-.resource-block .views-submit-button .form-submit{
+.resource-block .views-submit-button .form-submit {
   margin-top: 0;
 }
 
@@ -534,7 +534,7 @@ section.block-menu-block .block-title {
   background-color: #4F4F4F;
 }
 
-.bottom-footer-block{
+.bottom-footer-block {
   padding: 50px 0 10px
 }
 
@@ -617,6 +617,14 @@ section.block-menu-block .block-title {
   #block-search-form {
     margin: 30px 0;
   }
+
+  .bottom-footer-block {
+    padding-top: 15px;
+  }
+
+  .footer {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 990px) {
@@ -659,13 +667,14 @@ section.block-menu-block .block-title {
   #block-views-exp-search-page #edit-search-api-views-fulltext--2-wrapper {
     width: 70%;
   }
-  .hexagon-iceberg{
+
+  .hexagon-iceberg {
     margin-top: -7.9em;
   }
 }
 
-@media screen and (min-width: 1200px){
-  .hexagon-iceberg{
+@media screen and (min-width: 1200px) {
+  .hexagon-iceberg {
     margin-top: -6.9em;
   }
 }
