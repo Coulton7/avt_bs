@@ -69,17 +69,6 @@
   <![endif]-->
   <?php print $scripts; ?>
 
-  <script type="text/javascript">
-
-$( document ).ready(function() {
-  $(".form-select").chosen({
-    disable_search_threshold: 10,
-    no_results_text: "Sorry, no results found."
-  })
-});
-
-
-</script>
 </head>
 <body<?php print $body_attributes; ?>>
   <div id="skip-link">
