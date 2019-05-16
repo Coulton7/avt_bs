@@ -323,56 +323,6 @@
   margin-top: -83px;
 }
 
-#block-views-exp-resource-search-page {
-  border: 1px solid #e3e3e3;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-}
-
-#block-views-exp-resource-search-page .views-exposed-widgets {
-  display: block;
-}
-
-#block-views-exp-resource-search-page .form-control {
-  /* spacing and border on fields */
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  background-color: white;
-}
-
-#block-views-exp-resource-search-page .views-widget-filter-search_api_views_fulltext {
-  width: 100%;
-}
-
-#block-views-exp-resource-search-page .views-submit-button {
-  width: 100%;
-  text-align: center;
-}
-
-#block-views-exp-resource-search-page .views-submit-button button {
-  background-color: #e01f1f !important;
-  border-color: #e01f1f;
-}
-
-#block-views-exp-resource-search-page .views-submit-button button:hover {
-  background-color: #e33535 !important;
-  border-color: #e33535;
-}
-
-#block-views-exp-resource-search-page .views-submit-button button:active {
-  background-color: #e01f1f !important;
-  background-image: none;
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05);
-  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05);
-}
-
-#block-views-exp-resource-search-page .views-exposed-form .views-exposed-widget {
-  padding: 0 1em 0 1em;
-}
-
 #block-block-15 #sidebar-button {
   width: 100%;
 }
