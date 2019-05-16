@@ -1,7 +1,7 @@
 <?php
 
 error_reporting(0);
-$file_dir = "/sites/avtdev3.pinnseal.com/files/filerepository/";
+$file_dir = "/files/filerepository/";
 
 //DONT CHANGE ANYTHING BELOW HERE--------------------------------------------------------------------------------------------------------------------
 header('Content-Type: text/html; charset= utf-8');
@@ -14,7 +14,7 @@ $securimage = new Securimage();
 
 if ($securimage->check($_POST['ct_captcha']) == false) {
 echo '<div class="success">
-<div class="notice"><img src="sites/avtdev3.pinnseal.com/files/cert-images/error.png" width="64" height="64" align="absmiddle" />Incorrect security code entered</div>
+<div class="notice"><img src="/files/cert-images/error.png" width="64" height="64" align="absmiddle" />Incorrect security code entered</div>
 </div>';
 exit();
 }
@@ -34,7 +34,7 @@ $text = parseWord($userDoc.".doc");//Method 2
 //$html = nl2br(htmlspecialchars($text));
 //$html = preg_replace('/\s\s+/', ' ', $html);
 echo '<div class="success">
-      <div class="notice"><img src="sites/avtdev3.pinnseal.com/files/cert-images/success.png" width="64" height="64" align="absmiddle" /><strong>Success!</strong> Certificate Data Found</div>
+      <div class="notice"><img src="/files/cert-images/success.png" width="64" height="64" align="absmiddle" /><strong>Success!</strong> Certificate Data Found</div>
     </div>
 	<p>'.$text.'</p></br><div class="footer">Certificate of adequacy is defined in <a href="http://www.legislation.gov.uk/uksi/1992/3073/regulation/20/made" target="_new">\'The Supply of Machinery (Safety) Regulations 1992\'</a></div><p></br></p>';
 }
@@ -85,7 +85,7 @@ table.excel tbody td {
 
 </style>
 <div class="success">
-      <div class="notice"><img src="sites/avtdev3.pinnseal.com/files/cert-images/success.png" width="64" height="64" align="absmiddle" /><strong>Success!</strong> Certificate Data Found</div>
+      <div class="notice"><img src="/files/cert-images/success.png" width="64" height="64" align="absmiddle" /><strong>Success!</strong> Certificate Data Found</div>
     </div>
 	<p>'.$text.'</p></br><div class="footer">Certificate of adequacy is defined in <a href="http://www.legislation.gov.uk/uksi/1992/3073/regulation/20/made" target="_new">\'The Supply of Machinery (Safety) Regulations 1992\'</a></div><p></br></p>';
 }
@@ -99,7 +99,7 @@ table.excel tbody td {
 }
 else{
 echo '   <div class="success">
-      <div class="notice"><img src="sites/avtdev3.pinnseal.com/files/cert-images/error.png" width="64" height="64" align="absmiddle" /><strong>Sorry</strong> We couldn\'t find that Certificate</div>
+      <div class="notice"><img src="/files/cert-images/error.png" width="64" height="64" align="absmiddle" /><strong>Sorry</strong> We couldn\'t find that Certificate</div>
     </div>
     <p><div class="footer">Please check the Certificate number and try again, or please <a href="http://www.avtechnology.co.uk/contacts.php">contact us</a> for a manual validation.</div><p></br></p>
    <p>&nbsp;</p>';
