@@ -8,9 +8,7 @@ function avt_bs_preprocess_page(&$vars) {
     // template files called page--contenttype.tpl.php
     if (isset($vars['node']->type)) {
         $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type;
-    }
     //Template files based on page titles(if works move to parent theme)
-    else if (isset($variables['node']->type)) {
         $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->title;
    }
 
