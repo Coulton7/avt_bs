@@ -79,10 +79,7 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
 <script type="text/javascript" src="/sites/all/themes/avt_bs/js/animatedcollapse.js"></script>
 <script type="text/javascript" src="/sites/all/themes/avt_bs/js/jquery.form.js "></script>
-<?php
-    session_start();
-    $securimage = new Securimage(array('send_headers' => false));
-?>
+
 <script type="text/javascript">
   animatedcollapse.addDiv('result', 'fade=1,speed=400,hide=1');
   animatedcollapse.init();
