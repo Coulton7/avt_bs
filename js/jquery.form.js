@@ -1073,4 +1073,4 @@ function log() {
     }
 }
 
-})(jQuery);
+});
