@@ -79,6 +79,9 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
 <script type="text/javascript" src="/sites/all/themes/avt_bs/js/animatedcollapse.js"></script>
 <script type="text/javascript" src="/sites/all/themes/avt_bs/js/jquery.form.js "></script>
+<?php include ".." . base_path() . path_to_theme() . "/cert-php/securimage.php" ?>
+<?php include ".." . base_path() . path_to_theme() . "/cert-php/phpword.php" ?>
+<?php include ".." . base_path() . path_to_theme() . "/cert-php/securimage_show.php" ?>
 
 <script type="text/javascript">
 (function($){
