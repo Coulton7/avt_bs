@@ -38,8 +38,3 @@ stylesheets[all][] = css/avtblock-style.css
 stylesheets[all][] = css/avtfield-style.css
 
 scripts[] = js/headerbuttons.js
-
-files[] = cert-php/phpword.php
-files[] = cert-php/secureimage_show.php
-files[] = cert-php/secureimage.php
-files[] = cert-php/excel_reader2.php
