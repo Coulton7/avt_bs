@@ -106,7 +106,7 @@
 
   function showResponse(responseText, statusText, xhr, $form) {
     animatedcollapse.show('result');
-    document.getElementById('siimage').src = './securimage_show.php?sid=' + Math.random();
+    document.getElementById('siimage').src = 'sites/all/themes/avt_bs/cert-php/secureimage_show.php?sid=' + Math.random();
     document.getElementById('ct_captcha').value = '';
   }
 </script>
