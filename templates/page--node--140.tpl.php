@@ -78,37 +78,39 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
+<script type="text/javascript" src="/sites/all/themes/avt_bs/js/jquery-1.2.2.pack.js"></script>
 <script type="text/javascript" src="/sites/all/themes/avt_bs/js/animatedcollapse.js"></script>
 <script type="text/javascript" src="/sites/all/themes/avt_bs/js/jquery.form.js "></script>
 <script type="text/javascript">
+animatedcollapse.addDiv('result', 'fade=1,speed=400,hide=1');
+animatedcollapse.init();
 (function($){
-  animatedcollapse.addDiv('result', 'fade=1,speed=400,hide=1');
-  animatedcollapse.init();
-  $(document).ready(function() {
-    var options = {
-      target: '#result',
-      beforeSubmit: showRequest,
-      success: showResponse
-    };
-    $('#form1').submit(function() {
-      //animatedcollapse.toggle('result');
-      $(this).ajaxSubmit(options);
-      return false;
-    });
+$(document).ready(function() {
+  var options = {
+    target: '#result',
+    beforeSubmit: showRequest,
+    success: showResponse
+  };
+
+  $('#form1').submit(function() {
+    //animatedcollapse.toggle('result');
+    $(this).ajaxSubmit(options);
+    return false;
   });
+});
+
+function showRequest(formData, jqForm, options) {
+  animatedcollapse.hide('result');
+  var queryString = $.param(formData);
+  return true;
+}
+
+function showResponse(responseText, statusText, xhr, $form) {
+  animatedcollapse.show('result');
+  document.getElementById('siimage').src = 'http://beta.thorp2000.co.uk/sites/all/modules/cert_php/secureimage_show.php?sid=' + Math.random();
+  document.getElementById('ct_captcha').value = '';
+}
 })(jQuery);
-
-  function showRequest(formData, jqForm, options) {
-    animatedcollapse.hide('result');
-    var queryString = $.param(formData);
-    return true;
-  }
-
-  function showResponse(responseText, statusText, xhr, $form) {
-    animatedcollapse.show('result');
-    document.getElementById('siimage').src = '/sites/all/libraries/cert-php/secureimage_show.php?sid=' + Math.random();
-    document.getElementById('ct_captcha').value = '';
-  }
 </script>
 
 <div class="container-fluid bannercontainer">
