@@ -106,7 +106,7 @@ function showRequest(formData, jqForm, options) {
 
 function showResponse(responseText, statusText, xhr, $form) {
   animatedcollapse.show('result');
-  document.getElementById('siimage').src = 'http://beta.thorp2000.co.uk/sites/all/modules/cert_php/secureimage_show.php?sid=' + Math.random();
+  document.getElementById('siimage').src = '/sites/all/modules/cert_php/secureimage_show.php?sid=' + Math.random();
   document.getElementById('ct_captcha').value = '';
 }
 })(jQuery);
