@@ -344,6 +344,11 @@ a.btn-default {
   bottom: 0;
 }
 
+#img-2.home-tab-image, #img-3.home-tab-image{
+  position: relative;
+  display: none;
+}
+
 .slick-slider {
   color: white;
 }
