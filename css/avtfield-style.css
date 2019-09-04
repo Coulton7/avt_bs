@@ -356,6 +356,11 @@ a.btn-default {
   background-color: #e5e5e7;
 }
 
+.first-slide-image{
+  position: absolute;
+  bottom: 0;
+}
+
 #block-block-9 .slick-track {
   display: flex;
   align-items: center;
