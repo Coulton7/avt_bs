@@ -489,6 +489,22 @@ a.btn-default {
   background-position: center;
 }
 
+.slide-6 {
+  background-image: url('/files/graphics/home/Slide-06.jpg');
+  background-color: #002a5b;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide-7 {
+  background-image: url('/files/graphics/home/Slide-07.jpg');
+  background-color: #002a5b;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .nav-arrows a {
   color: #002a5b;
   text-shadow: 0 0 3px #ffffff;
