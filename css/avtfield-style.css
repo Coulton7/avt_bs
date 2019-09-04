@@ -348,6 +348,10 @@ a.btn-default {
   color: white;
 }
 
+.slick-slider .standard-text:hover {
+  color: #535354;
+}
+
 .slide-active {
   background-color: #e5e5e7;
 }
