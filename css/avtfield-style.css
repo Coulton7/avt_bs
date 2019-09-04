@@ -344,7 +344,8 @@ a.btn-default {
   bottom: 0;
 }
 
-#img-2.home-tab-image, #img-3.home-tab-image{
+#img-2.home-tab-image,
+#img-3.home-tab-image {
   position: relative;
   display: none;
 }
@@ -361,7 +362,7 @@ a.btn-default {
   background-color: #e5e5e7;
 }
 
-.first-slide-image{
+.first-slide-image {
   position: absolute;
   bottom: 0;
 }
