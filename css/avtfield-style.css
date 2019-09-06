@@ -521,13 +521,13 @@ a.btn-default {
 }
 
 .nav-arrows a {
-  color: #002a5b;
+  color: #5cabdf;
   text-shadow: 0 0 3px #ffffff;
   margin-right: 1em;
 }
 
 .nav-arrows a:hover {
-  color: #9a151a;
+  color: #ffffff;
 }
 
 .sub-icon {
