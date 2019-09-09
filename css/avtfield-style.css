@@ -994,7 +994,7 @@ input#edit-search-block-form--2 {
   }
 }
 
-@@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .contact-col-left {
     padding-left: 0;
     margin-bottom: 15px;
