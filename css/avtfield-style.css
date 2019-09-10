@@ -853,6 +853,10 @@ input#edit-search-block-form--2 {
     display: none;
   }
 
+  .ada .row-eq-height{
+    display: block;
+  }
+
   nav .menu .last.leaf {
     float: none;
     background-color: inherit;
