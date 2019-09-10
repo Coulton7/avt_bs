@@ -92,11 +92,6 @@ nav .menu .last.leaf a:hover {
   text-align: center;
 }
 
-.container-fluid>.navbar-collapse {
-  margin-right: -30px;
-  margin-left: -30px;
-}
-
 .field-logo, .col-centered {
   display: inline-block;
   float: none;
