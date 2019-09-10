@@ -10,6 +10,12 @@ html, body {
   margin-top: 0;
 }
 
+.container-fluid>.navbar-collapse{
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0;
+}
+
 .sticky {
   position: fixed;
   top: 0;
