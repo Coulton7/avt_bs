@@ -16,6 +16,10 @@ html, body {
   padding: 0;
 }
 
+a.logo.navbar-btn.pull-left{
+  margin: 0;
+}
+
 .sticky {
   position: fixed;
   top: 0;
