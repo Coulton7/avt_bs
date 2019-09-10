@@ -138,13 +138,11 @@
 	</div>
 
 	<?php if ($page['navigation_col']): ?>
-		<div class="navigation_col">
-			<div class="action-menu text-center">
-				<div class="col-sm-0 col-xs-0 fullscreen">
-				</div>
-				<div class="col-sm-12 col-xs-12 no-padding">
-				<?php print render($page['navigation_col']);?>
+		<div class="navigation_col row">
+			<div class="col-sm-0 col-xs-0 fullscreen">
 			</div>
+			<div class="col-sm-12 col-xs-12 no-padding">
+				<?php print render($page['navigation_col']);?>
 			</div>
 		</div>
 	<?php endif; ?>
