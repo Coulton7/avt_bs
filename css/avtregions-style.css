@@ -48,6 +48,7 @@ a.logo.navbar-btn.pull-left{
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .container.navbar-container {
