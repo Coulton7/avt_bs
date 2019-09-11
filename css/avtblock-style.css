@@ -498,6 +498,15 @@ section.block-menu-block .block-title {
   color: #535354;
 }
 
+.vertical-grey-gradient{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e5e5e7+0,ffffff+101 */
+background: #e5e5e7;
+background: -moz-linear-gradient(top,  #e5e5e7 0%, #ffffff 101%);
+background: -webkit-linear-gradient(top,  #e5e5e7 0%,#ffffff 101%);
+background: linear-gradient(to bottom,  #e5e5e7 0%,#ffffff 101%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e7', endColorstr='#ffffff',GradientType=0 );
+}
+
 /*Machine sentry grey background */
 .ms-grey-block {
   width: 100%;

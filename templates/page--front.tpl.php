@@ -201,10 +201,7 @@
   					<h1 class="page-header" id="page-main-heading"><?php print strstr($title, "®") ? str_replace("®", "<sup>®</sup>", $title) : $title; ?></h1>
 					<?php endif; ?>
 
-			<div class="<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; }
-														else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-12'; }
-														else { print 'col-sm-12'; }
-											?>">
+			<div class="col-sm-12 fullscreen section-shadow">
           <!--<div class="breadcrumb-wrap">
             <div class="container-fluid">
               <div class="row">

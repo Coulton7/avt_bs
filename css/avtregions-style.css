@@ -35,6 +35,9 @@ a.logo.navbar-btn.pull-left{
 .region-content{
   margin: 1em;
 }
+.front .region-content {
+    margin: 0;
+}
 
 .container-media-fluid {
   margin-right: auto;
