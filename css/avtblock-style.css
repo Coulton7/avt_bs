@@ -489,9 +489,13 @@ section.block-menu-block .block-title {
   margin-top: 0;
 }
 
-/*Machine Sentry*/
-#block-block-3 {
-  position: relative;
+.media-center-block{
+  background-image: url('/sites/avtreliability.com/files/pictures/Slider-DNA-big.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffffff;
+  color: #535354;
 }
 
 /*Machine sentry grey background */
