@@ -226,6 +226,18 @@ a.btn-default {
   padding-bottom: 60px;
 }
 
+.media-highlight{
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  transition: color .5s;
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.64));
+}
+
+.media-highlight:hover{
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.82));
+}
+
 .rel-overlay {
   position: relative;
   width: 100%;
@@ -440,23 +452,23 @@ a.btn-default {
 }
 
 .prev-slick {
-  color: #002a5b;
+  color: #5cabdf;
   text-shadow: 0 0 3px #ffffff;
   left: 1em;
 }
 
 .next-slick {
-  color: #002a5b;
+  color: #5cabdf;
   text-shadow: 0 0 3px #ffffff;
   right: 1em;
 }
 
 .prev-slick:hover, .next-slick:hover {
-  color: #9a151a;
+  color: #ffffff;
 }
 
 .slick-next:hover::before, .slick-prev:hover::before {
-  color: color: #9a151a;
+  color: #ffffff;
 }
 
 .slide-1 {
