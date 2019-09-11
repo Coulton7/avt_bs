@@ -275,7 +275,7 @@ a.btn-default {
 }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.3);
   mix-blend-mode: multiply;
   opacity: 0;
   color: #ffffff;
