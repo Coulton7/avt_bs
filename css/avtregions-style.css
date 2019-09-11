@@ -39,6 +39,10 @@ a.logo.navbar-btn.pull-left{
     margin: 0;
 }
 
+.front .page-header{
+  margin-bottom: 0;
+}
+
 .container-media-fluid {
   margin-right: auto;
   margin-left: auto;
