@@ -22,38 +22,6 @@
   background-repeat: no-repeat;
 }
 
-#block-block-11 {
-  /* navigation on the homepage */
-  height: 46px;
-  background-color: #dddddd;
-}
-
-#block-block-11 a {
-  color: black;
-  transition: 0.3s;
-}
-
-#block-block-11 a:hover {
-  color: #dd1e25;
-}
-
-#block-block-11 input.input-medium.search-query {
-  /* home page search bar (since removed) */
-  padding: 0 12px;
-  margin-right: 10px;
-  margin-top: 8px;
-  float: right;
-  height: 30px;
-  border-radius: 15px;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-}
-
-#block-block-11 .btn.btn-default {
-  width: 35px;
-  height: 35px;
-}
-
 #block-system-main {
   /* main content block */
   margin-bottom: 35px;
@@ -323,7 +291,7 @@
   margin-top: -83px;
 }
 
-#block-block-15 #sidebar-button {
+#sidebar-button {
   width: 100%;
 }
 
@@ -355,46 +323,6 @@
 
 #block-views-exp-search-page .views-submit-button {
   float: right;
-}
-
-/* home page main title header */
-#block-block-7 {
-  padding: 40px 0 80px;
-  background-color: #f2f2f2;
-}
-
-/* Home page header text */
-#block-block-7 h1 {}
-
-/* tabs on header */
-#block-block-8 {
-  margin: -49px 0 0;
-}
-
-#block-block-8 .nav-tabs {
-  margin-bottom: 0 !important;
-}
-
-/* remove bootstrap styling */
-#block-block-8 .nav-tabs>li.active>a, #block-block-8 .nav-tabs>li.active>a:focus {
-  box-shadow: none;
-  -webkit-box-shadow: none;
-}
-
-/* padding around tabs */
-#block-block-8 .nav>li>a, #block-block-11 .nav>li>a {
-  padding: 8px 15px;
-}
-
-/* blue top bar */
-#block-block-11 .nav-tabs {
-  margin-bottom: 0;
-  margin-top: 1px;
-}
-
-/* push down to be in line with the blue strip */
-section#block-views-slick-carousel-block {
-  margin-top: -100px;
 }
 
 .rrssb-buttons li a {
@@ -469,24 +397,9 @@ section.block-menu-block .block-title {
   display: none;
 }
 
-#block-views-related-media-block {
-  padding-bottom: 35px;
-  margin-right: 15px;
-}
-
 /* contact us well block */
-#block-block-16 {
+.contact-us-well {
   padding-top: 40px;
-}
-
-/*Block not in use*/
-#block-views-slick-x-block-grid {
-  padding-bottom: 35px;
-}
-
-/*Block not in use*/
-#block-views-slick-x-block-grid h2 {
-  margin-top: 0;
 }
 
 .media-center-block{
@@ -516,7 +429,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e7', end
 }
 
 /*General enquiry form grey background */
-#block-views-general-enquiry-block {
+.general-enquiry-block {
   background-color: #E5E5E7;
   padding: 30px 0;
 }
@@ -536,12 +449,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e7', end
   margin: 0px auto;
 }
 
-/*disabled block*/
-#block-block-2 .btn {
-  background-color: black;
-  height: 43px;
-}
-
 /* Main dark grey block footer */
 .footer_lower {
   background-color: #4F4F4F;
@@ -551,46 +458,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e7', end
   padding: 50px 0 10px
 }
 
-/*social buttons footer*/
-#follow-us {
-  vertical-align: middle;
-}
-
 /*share this page header*/
-#block-block-39 {
+.share-header {
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
-#block-menu-menu-footer-menu {
+.footer-menu {
   background-color: #4F4F4F;
   text-align: center;
 }
 
-#block-menu-menu-footer-menu li {
+.footer-menu li {
   display: inline-block;
 }
 
-#block-menu-menu-footer-menu a {
+.footer-menu a {
   color: white;
 }
 
-#block-menu-menu-footer-menu a:hover {
+.footer-menu a:hover {
   text-decoration: none;
   background-color: #e5e5e7;
   color: #535454;
   border-bottom: none;
 }
 
-#block-menu-menu-footer-menu .active {
+.footer-menu li a.active {
   text-decoration: none;
   background-color: #e5e5e7;
   color: #535454;
   border-bottom: none;
-}
-
-#block-fieldblock-node-page-default-field-slideshowfield {
-  margin: 0 -20px;
 }
 
 @media (max-width: 767px) {
