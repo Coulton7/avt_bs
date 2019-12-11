@@ -86,41 +86,20 @@ a.logo.navbar-btn.pull-left{
   clear: both;
 }
 
-#block-block-2 {
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-#greyfootertop {
-  padding-top: 0;
-  padding-bottom: 50px;
-}
-
-#greyfooterbottom {
-  padding-bottom: 20px;
-}
-
-#black-button-footer {
-  background-color: black;
-  width: 200px;
-  color: white;
-}
-
-#block-menu-menu-menu-footer-menu {
+.footer-menu {
   background-color: #4F4F4F;
   text-align: center;
 }
 
-#block-menu-menu-menu-footer-menu ul .leaf {
+.footer-menu ul .leaf {
   display: inline-block;
 }
 
-#block-menu-menu-menu-footer-menu ul .leaf a {
+.footer-menu ul .leaf a {
   color: white;
 }
 
-#block-menu-menu-menu-footer-menu ul .leaf a:hover {
+.footer-menu ul .leaf a:hover {
   color: #535454;
   background-color: #e5e5e7;
   border-bottom: none;
@@ -137,12 +116,6 @@ a.logo.navbar-btn.pull-left{
 
 #footerbottom {
   text-align: center;
-}
-
-@media screen and (max-width: 767px) {
-  #black-button-footer {
-    width: 100%;
-  }
 }
 
 @media (max-width: 768px) {
