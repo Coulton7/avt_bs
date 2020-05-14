@@ -612,6 +612,24 @@ a.slider-button:hover {
   display: none;
 }
 
+.multipage-button{
+  float: right;
+}
+
+.multipage-controls-list input.form-submit{
+  background: #002a5b;
+  color: #ffffff;
+  text-shadow: none;
+  font-size: inherit;
+  padding: 10px 15px;
+}
+
+.multipage-controls-list input.form-submit:hover{
+  background: #00428e;
+  color: #e5e5e7;
+  border-color: #ffffff;
+}
+
 .view-trainer .field-avatar img {
   border-radius: 50%;
   margin-left: 15px;
@@ -746,7 +764,7 @@ a.slider-button:hover {
   border-bottom: none;
 }
 
-.view-general-enquiry .view-content .views-row .entity a {
+.view-general-enquiry .view-content .views-row .entity h2 a {
   color: #002a5b;
   pointer-events: none;
   cursor: default;
