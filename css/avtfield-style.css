@@ -859,6 +859,189 @@ input.form-control {
   background-position: 50% 0;
 }
 
+a.blue-text{
+  color: #002a5b;
+}
+
+a.blue-text:hover{
+  color: #00428e;
+}
+
+.multipage-button{
+  float: right;
+}
+
+.multipage-controls-list input.form-submit{
+  background: #002a5b;
+  color: #ffffff;
+  text-shadow: none;
+  font-size: inherit;
+  padding: 10px 15px;
+}
+
+.multipage-controls-list input.form-submit:hover{
+  background: #00428e;
+  color: #e5e5e7;
+  border-color: #ffffff;
+}
+
+.grey-block{
+background-color: #d6d6d6;
+padding: 10px 15px;
+}
+
+.entitytype-analysis_enquiry-form input.form-control{
+width:54%;
+}
+
+.entitytype-analysis_enquiry-form label.control-label{
+float: left;
+width: 30%;
+}
+
+.entitytype-analysis_enquiry-form .checkbox label.control-label{
+width: 100%;
+margin-bottom: 1em;
+}
+
+.entitytype-analysis_enquiry-form .multipage-controls-list.clearfix{
+float:right;
+}
+
+.entitytype-analysis_enquiry-form input.form-submit.multipage-link-previous {    display: block;
+    margin-left:1em}
+
+.entitytype-analysis_enquiry-form .form-textarea-wrapper.resizable.textarea-processed.resizable-textarea {
+    width: 54%;
+    float: left;
+margin-bottom:1.5em;
+}
+
+.entitytype-analysis_enquiry-form{
+padding: 0.5em;
+}
+
+.entitytype-analysis_enquiry-form .form-group#edit-field-company{
+margin-bottom: 15px;
+}
+
+.entitytype-analysis_enquiry-form .form-group#edit-field-question {
+    margin-bottom: 0;
+}
+
+.entitytype-analysis_enquiry-form .form-group .form-item-field-question-und-0-value {
+    margin-bottom: 0;
+}
+
+.entitytype-analysis_enquiry-form .form-group#edit-field-for-process-data {
+    margin-bottom: 0;
+}
+
+.field-group-multipage-group-wrapper.group-multipage-group.field-group-multipage-group{
+padding:0.5em;
+}
+
+.multipage-button{
+  float: right;
+  position: relative;
+}
+
+.multipage-controls-list #edit-actions{
+  float: right;
+  position: relative;
+}
+
+.group-multipage-two .multipage-button{
+  float: right;
+  position: relative;
+}
+
+.view-analysis-enquiry .views-row{
+  overflow: visible;
+}
+
+@media screem and(max-width:767px) {
+  .multipage-button{
+    bottom: 0;
+    left: 0;
+  }
+  .multipage-controls-list #edit-actions{
+    bottom: 0;
+    left: 0;
+    float: left;
+  }
+  .group-multipage-two .multipage-button{
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+.multipage-button{
+  bottom: 5.1em;
+  left: 4.2em;
+}
+.multipage-controls-list #edit-actions{
+  left: 6em;
+  bottom: 4em;
+}
+.group-multipage-two .multipage-button{
+  bottom: 10em;
+  left: 11.5em;
+}
+}
+
+
+@media screen and (min-width: 992px) {
+.multipage-button{
+  bottom: 4.4em;
+  left: 4.2em;
+}
+.multipage-controls-list #edit-actions{
+  bottom: 4em;
+  left: 6em;
+}
+.group-multipage-two .multipage-button{
+  left: 11.5em;
+  bottom: 10em;
+}
+}
+
+
+@media screen and (min-width: 1200px) {
+.multipage-button{
+  bottom: 3.8em;
+  left: 4em;
+}
+.multipage-controls-list #edit-actions{
+  bottom: 3.5em;
+  left: 6em;
+}
+.group-multipage-two .multipage-button{
+  bottom: 9.4em;
+  left: 9.4em;
+}
+}
+
+
+@media screen and (min-width: 768px) {
+.entitytype-analysis_enquiry-form .form-group{
+margin-bottom: 2.5em;
+}
+}
+
+@media screen and (min-width: 992px) {
+.entitytype-analysis_enquiry-form .form-group{
+margin-bottom: 2em;
+}
+}
+
+@media screen and (min-width: 1200px) {
+.entitytype-analysis_enquiry-form .form-group{
+margin-bottom: 1.5em;
+}
+}
+
 @media screen and (max-width: 767px) {
   .home-tab-image-wrap {
     display: none;
