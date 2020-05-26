@@ -88,7 +88,7 @@
 					<?php print render($page['advertising_board']); ?>
 				</div>
 			</div>
-		<?endif; ?>
+		<?php endif; ?>
 		<div class="row waveupper row-eq-height">
 			<div class="col-sm-2 col-xs-1 fullscreen">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
