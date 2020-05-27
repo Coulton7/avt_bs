@@ -26,6 +26,7 @@ nav .menu .last.leaf a:hover {
 
 .page-header {
   margin-top: 40px;
+  border: none;
 }
 
 .field-name-field-hidden-form-url {
@@ -126,6 +127,17 @@ a.btn-default {
 
 .btn-default:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.btn-primary.form-submit{
+  color: #ffffff;
+  background-color: #002a5b;
+  border-color: #002a5b;
+}
+
+.btn-primary.form-submit:hover{
+  background-color: #004a8c;
+  border-color: #004a8c;
 }
 
 .navbar-default .navbar-nav.secondary>.active>a {
@@ -1133,7 +1145,7 @@ margin-bottom: 1.5em;
 
 @media screen and (min-width: 768px) {
   .navbar-nav {
-    padding-left: 7.5em;
+    padding-left: 8.33333333%;
   }
 
   .laptop {
@@ -1160,9 +1172,6 @@ margin-bottom: 1.5em;
 }
 
 @media screen and (min-width: 992px) {
-  .navbar-nav {
-    padding-left: 15em;
-  }
 
   .laptop {
     top: -9em;
@@ -1191,6 +1200,10 @@ margin-bottom: 1.5em;
   .contact-col-left {
     padding-left: 0;
     margin-bottom: 15px;
+  }
+
+  .navbar-nav{
+    padding-left: 16.66666667%;
   }
 
   .contact-col-right {

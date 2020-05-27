@@ -73,10 +73,6 @@
  * @ingroup templates
  */
 ?>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
-
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
 		<?php if ($page['advertising_board']): ?>
@@ -86,9 +82,10 @@
 				</div>
 			</div>
 		<?php endif; ?>
-		<div class="row waveupper row-eq-height">
-			<div class="col-sm-2 col-xs-1 fullscreen">
+		<div class="row row-eq-height">
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
+					<img class="img-responsive img-75 padding-1em" src="<?php print $logo?>" alt="logo">
 				</a>
 					<?php if ($logo): ?>
 						<a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
@@ -97,14 +94,25 @@
 			</div>
 
 
-		<div class="col-sm-10 col-xs-11 fullscreen">
+			<div class="col-lg-5 col-md-4 col-sm-0 col-xs-0 fullscreen">
 
+			</div>
+
+			<div class="col-lg-4 col-md-5 col-sm-6 col-xs-6">
+					<?php if($page['search']):?>
+						<div class="row">
+							<div class="col-sm-12 no-padding">
+								<?php print render($page['search']);?>
+							</div>
+						</div>
+					<?php endif;?>
+			</div>
 		</div>
-	</div>
-	<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
 
-		<div class="<?php print $container_class; ?>">
-			<div class="navbar-header">
+			<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
+
+				<div class="<?php print $container_class; ?>">
+					<div class="navbar-header">
 
 				<?php if (!empty($site_name)): ?>
 					<a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
@@ -142,6 +150,7 @@
 
 	</header>
 
+
 	<?php if ($page['navigation_col']): ?>
 		<div class="navigation_col row">
 			<div class="col-sm-0 col-xs-0 fullscreen">
@@ -157,6 +166,14 @@
 			<?php print render($page['preface']);?>
 	</div>
 	<?php endif; ?>
+	<div class="breadcrumb-wrap">
+		<div class="container-fluid">
+			<div class="row">
+					<?php if (!empty($breadcrumb)): print t("You are here") . $breadcrumb; endif;?>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<?php if ($page['wavelower']): ?>
 	<div class="row wavelower row-eq-height">
@@ -201,14 +218,6 @@
 														else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-12'; }
 														else { print 'col-sm-12 fullscreen'; }
 											?>">
-          <div class="breadcrumb-wrap">
-            <div class="container-fluid">
-              <div class="row">
-                  <?php if (!empty($breadcrumb)): print t("You are here") . $breadcrumb; endif;?>
-								</div>
-              </div>
-            </div>
-          </div>
 
 		<div class="tablet-fix">
 		<section id="main-content" class="

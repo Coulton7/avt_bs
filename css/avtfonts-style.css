@@ -18,6 +18,11 @@ blockquote {
   line-height: 1;
 }
 
+.flex-header{
+  color: #ffffff;
+  padding-left: 0;
+}
+
 p.header-title-summary {
   padding-top: 2em;
   color: #cbccce;
@@ -138,8 +143,29 @@ th {
   margin-bottom: 0;
 }
 
+@media screen and (min-width: 992px){
+  .flex-header{
+    font-size: 2.8em;
+    line-height: 58px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .flex-header{
+    display: block;
+    font-size: 2.4em;
+    line-height: 50px;
+  }
+}
+
 @media (max-width: 767px) {
   .ms-grey-block p {
     width: 100%;
+  }
+  .flex-header{
+    display: block;
+    font-size: 2.4em;
+    line-height: 50px;
+    text-align: center;
   }
 }
