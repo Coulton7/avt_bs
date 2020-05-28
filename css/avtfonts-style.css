@@ -148,6 +148,7 @@ th {
     color: #B5B6B9;
     padding-bottom: 0px;
     padding-top: 20px;
+    font-size: 32px
 }
    h1.page-header{
     font-size: 1.1em;
@@ -165,6 +166,7 @@ th {
     color: #B5B6B9;
     padding-bottom: 0px;
     padding-top: 20px;
+    font-size: 31px
 }
    h1.page-header{
     display: block;
@@ -186,7 +188,9 @@ th {
     color: #B5B6B9;
     padding-bottom: 0px;
     padding-top: 20px;
+    font-size: 30px;
   }
+
    h1.page-header{
     display: block;
     font-size: 1.1em;
