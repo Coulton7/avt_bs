@@ -144,7 +144,7 @@ th {
 }
 
 @media screen and (min-width: 992px){
-  .flex-header h1{
+  .page-header h1{
     font-size: 1.1em;
     line-height: 1em;
     color: #ffffff;
@@ -153,7 +153,7 @@ th {
 }
 
 @media screen and (min-width: 768px){
-  .flex-header h1{
+  .page-header h1{
     display: block;
     font-size: 1.1em;
     line-height: 1em;
@@ -166,7 +166,7 @@ th {
   .ms-grey-block p {
     width: 100%;
   }
-  .flex-header h1{
+  .page-header h1{
     display: block;
     font-size: 1.1em;
     line-height: 1em;
