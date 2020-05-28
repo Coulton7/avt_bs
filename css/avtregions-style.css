@@ -30,10 +30,11 @@ a.logo.navbar-btn.pull-left{
 .breadcrumb-wrap {
   max-height: 40px;
   background-color: #d6d6d6;
+  color: #696969;
 }
 
 .breadcrumb a{
-  color: #696969;
+  color: #535354;
 }
 
 .breadcrumb a:hover{
@@ -41,7 +42,7 @@ a.logo.navbar-btn.pull-left{
   border-bottom: 1px dashed #6c6c6e;
 }
 
-.breadcrumb > .active:before{
+.breadcrumb>li+li:before{
   color: #535354;
 }
 
