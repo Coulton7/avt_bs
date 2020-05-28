@@ -29,11 +29,11 @@ a.logo.navbar-btn.pull-left{
 
 .breadcrumb-wrap {
   max-height: 40px;
-  background-color: #696969;
+  background-color: #d6d6d6;
 }
 
 .breadcrumb a{
-  color: #535354;
+  color: #696969;
 }
 
 .breadcrumb a:hover{
