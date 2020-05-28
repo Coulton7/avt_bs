@@ -49,6 +49,12 @@ a.logo.navbar-btn.pull-left{
   color: #ffffff;
 }
 
+.page-gap{
+  padding-bottom: 0px;
+  padding-top: 20px;
+  margin: 40px 0 20px;
+}
+
 .region-content{
   margin: 1em;
 }
