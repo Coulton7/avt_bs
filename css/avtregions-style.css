@@ -84,7 +84,8 @@ a.logo.navbar-btn.pull-left{
 }
 
 .navbar-nav>li>a{
-  border-bottom: 4px solid transparent
+  border-top: none;
+  border-bottom: 4px solid transparent;
 }
 
 .navbar-nav>li>a:hover{
