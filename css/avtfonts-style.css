@@ -149,7 +149,6 @@ th {
     padding-bottom: 0px;
     padding-top: 20px;
 }
-  }
    h1.page-header{
     font-size: 1.1em;
     line-height: 1em;
@@ -157,6 +156,7 @@ th {
     text-align: left;
     padding-top: 0;
     padding-bottom: 0;
+    margin-top: 0;
   }
 }
 
@@ -166,7 +166,6 @@ th {
     padding-bottom: 0px;
     padding-top: 20px;
 }
-  }
    h1.page-header{
     display: block;
     font-size: 1.1em;
@@ -175,6 +174,7 @@ th {
     text-align: left;
     padding-top: 0;
     padding-bottom: 0;
+    margin-top: 0;
   }
 }
 
@@ -186,7 +186,6 @@ th {
     color: #B5B6B9;
     padding-bottom: 0px;
     padding-top: 20px;
-}
   }
    h1.page-header{
     display: block;
@@ -196,5 +195,6 @@ th {
     color: #ffffff;
     padding-top: 0;
     padding-bottom: 0;
+    margin-top: 0;
   }
 }
