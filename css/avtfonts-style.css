@@ -155,6 +155,8 @@ th {
     line-height: 1em;
     color: #ffffff;
     text-align: left;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -171,6 +173,8 @@ th {
     line-height: 1em;
     color: #ffffff;
     text-align: left;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -190,5 +194,7 @@ th {
     line-height: 1em;
     text-align: center;
     color: #ffffff;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
