@@ -29,7 +29,7 @@ a.logo.navbar-btn.pull-left{
 
 .breadcrumb-wrap {
   max-height: 40px;
-  background-color: #d6d6d6;
+  background-color: #696969;
 }
 
 .breadcrumb a{
@@ -81,6 +81,15 @@ a.logo.navbar-btn.pull-left{
 
 .navbar-nav {
   margin: 0;
+}
+
+.navbar-nav>li>a{
+  border-bottom: 4px solid transparent
+}
+
+.navbar-nav>li>a:hover{
+  border-top: none;
+  border-bottom: 4px solid #dd1e25;
 }
 
 .navbar-default .navbar-nav>li>a:hover {

@@ -404,7 +404,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e7', end
 }
 
 .avt-search .form-group{
-  margin-right: 2em;
+  margin-right: 1em;
+  margin-left: 1em;
 }
 
 /*Machine sentry grey background */
