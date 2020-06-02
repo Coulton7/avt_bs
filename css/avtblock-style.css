@@ -561,6 +561,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e7', end
   }
 }
 
+@media (max-width: 992px){
+  .flex-header{
+    display: block;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .avt-helix {
     right: -135px !important;
