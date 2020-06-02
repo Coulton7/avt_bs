@@ -49,12 +49,6 @@ a.logo.navbar-btn.pull-left{
   color: #ffffff;
 }
 
-.page-gap{
-  padding-bottom: 0px;
-  padding-top: 20px;
-  margin: 40px 0 20px;
-}
-
 .region-content{
   margin: 1em;
 }
@@ -87,16 +81,6 @@ a.logo.navbar-btn.pull-left{
 
 .navbar-nav {
   margin: 0;
-}
-
-.navbar-nav>li>a{
-  border-top: none;
-  border-bottom: 4px solid transparent;
-}
-
-.navbar-nav>li>a:hover{
-  border-top: none;
-  border-bottom: 4px solid #dd1e25;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -152,6 +136,9 @@ a.logo.navbar-btn.pull-left{
 }
 
 @media screen and (min-width: 768px){
+  .navbar-nav{
+    padding-left: 0;
+  }
   .navbar.container-fluid{
     background: none;
     border: none;

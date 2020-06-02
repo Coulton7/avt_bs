@@ -28,16 +28,15 @@
 }
 
 .breadcrumb-extension {
-  background-size: auto;
-  background-color: #002a5b;
-}
-
-.breadcrumb-extension {
   /* header image */
   position: relative;
   background-repeat: no-repeat;
-  background-size: cover;
-  padding: 4em 0 4em 0;
+  background-size: contain;
+  padding: 6em 0 6em 0;
+  background-color: #002a5b;
+  background-image: url(/sites/default/files/headerbackground.jpg);
+  background-blend-mode: multiply;
+  background-attachment: fixed;
 }
 
 .breadcrumb-extension-front {
@@ -404,8 +403,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e7', end
 }
 
 .avt-search .form-group{
-  margin-right: 1em;
-  margin-left: 1em;
+  margin-right: 2em;
 }
 
 /*Machine sentry grey background */
@@ -439,7 +437,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e7', end
 
 /* Main dark grey block footer */
 .footer_lower {
-  background-color: #696969;
+  background-color: #4F4F4F;
 }
 
 .bottom-footer-block {
@@ -488,6 +486,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e7', end
     padding-left: 0px !important;
   }
 
+  .breadcrumb-extension{
+    background-size: cover;
+  }
+
   #breadcrumb-extension-consulting {
     background-attachment: initial;
   }
@@ -526,6 +528,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e7', end
   }
   .avt-search{
     padding: 1em;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .breadcrumb-extension{
+    background-size: contain;
   }
 }
 
@@ -584,6 +592,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e7', end
   }
   .avt-search{
     padding: 2em;
+  }
+  .breadcrumb-extension{
+    background-size: cover;
+    background-position: 25%;
   }
 }
 
@@ -649,5 +661,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e7', end
 
   100% {
     opacity: 1;
+  }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
+  .breadcrumb-extension{
+    background-color: #002A5B;
+  }
+}
+
+@supports (-ms-ime-align:auto) {
+  .breadcrumb-extension{
+    background-color: #002A5B;
   }
 }
