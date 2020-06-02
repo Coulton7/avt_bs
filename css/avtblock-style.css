@@ -302,6 +302,15 @@
   border-bottom: none;
 }
 
+.rrssb-buttons li.rrssb-linkedin a, .rrssb-buttons li.rrssb-email a, .rrssb-buttons li.rrssb-twitter a, .fa-linkedin{
+  color : #002a5b;
+}
+
+.rrssb-buttons li.rrssb-linkedin a:hover, .rrssb-buttons li.rrssb-email a:hover, .rrssb-buttons li.rrssb-twitter a:hover, .fa-linkedin:hover{
+  color : #00428e;
+}
+
+
 /* light grey background */
 .ca-grey-block {
   width: 100%;
