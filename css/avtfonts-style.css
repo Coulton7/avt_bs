@@ -178,8 +178,6 @@ th {
    padding-top: 0;
    padding-bottom: 0;
    margin-top: 0;
-   font-size: 2.4em;
-   line-height: 50px;
  }
 }
 
@@ -200,8 +198,6 @@ th {
     display: block;
     font-size: 2.1em;
     line-height: 1em;
-    font-size: 2.4em;
-    line-height: 50px;
     text-align: center;
     color: #ffffff;
     padding-top: 0;
