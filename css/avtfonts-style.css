@@ -169,6 +169,11 @@ th {
     font-size: 31px;
     text-align: center;
   }
+
+  .flex-header{
+    display: block;
+  }
+
   h1.page-header{
     display: block;
     font-size: 1.1em;
@@ -192,6 +197,10 @@ th {
     font-size: 30px;
     margin: 40px 0 20px;
     text-align: center;
+  }
+
+  .flex-header{
+    display: block;
   }
 
    h1.page-header{
