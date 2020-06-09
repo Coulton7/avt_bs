@@ -121,7 +121,7 @@ function showResponse(responseText, statusText, xhr, $form) {
 			</div>
 		<?php endif; ?>
 		<div class="row row-eq-height">
-			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+			<div class="col-lg-3 col-md-4 col-sm-5 col-xs-6">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
 					<img class="img-responsive avt-logo" src="<?php print $logo?>" alt="logo">
 				</a>
