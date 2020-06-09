@@ -121,6 +121,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
+						<p class="navbar-toggle">Menu</p>
 					<?php endif; ?>
 				</div>
 			</div>

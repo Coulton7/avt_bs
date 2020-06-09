@@ -87,6 +87,16 @@ a.logo.navbar-btn.pull-left{
   color: #dd1e25;
 }
 
+p.navbar-toggle{
+  border: none;
+  margin: 0 15px;
+  padding: 12px 0;
+}
+
+.navbar-toggle{
+  margin-right: 2em;
+}
+
 .region-sidebar-first {
   background-color: white;
 }
