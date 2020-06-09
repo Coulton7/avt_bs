@@ -483,62 +483,6 @@ a.btn-default {
   color: #ffffff;
 }
 
-.slide-1 {
-  background-image: url('/files/graphics/home/Slice-01.jpg');
-  background-color: #002a5b;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.slide-2 {
-  background-image: url('/files/graphics/home/Slice-02.jpg');
-  background-color: #002a5b;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.slide-3 {
-  background-image: url('/files/graphics/home/Slice-03.jpg');
-  background-color: #002a5b;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.slide-4 {
-  background-image: url('/files/graphics/home/Slice-04.jpg');
-  background-color: #002a5b;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.slide-5 {
-  background-image: url('/files/graphics/home/Slice-05.jpg');
-  background-color: #002a5b;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.slide-6 {
-  background-image: url('/files/graphics/home/Slice-06.jpg');
-  background-color: #002a5b;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.slide-7 {
-  background-image: url('/files/graphics/home/Slice-07.jpg');
-  background-color: #002a5b;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 .nav-arrows a {
   color: #5cabdf;
   text-shadow: 0 0 3px #ffffff;
@@ -1145,6 +1089,62 @@ margin-bottom: 1.5em;
   .membership-slick .slick-initialized .slick-slide {
     padding: 0 5px;
   }
+
+  .slide-1 {
+    background-image: url('/files/graphics/flexhome/Slide-1-05x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-2 {
+    background-image: url('/files/graphics/flexhome/Slide-2-05x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-3 {
+    background-image: url('/files/graphics/flexhome/Slide-3-05x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-4 {
+    background-image: url('/files/graphics/flexhome/Slide-4-05x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-5 {
+    background-image: url('/files/graphics/flexhome/Slide-5-05x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-6 {
+    background-image: url('/files/graphics/flexhome/Slide-6-05x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-7 {
+    background-image: url('/files/graphics/flexhome/Slide-7-05x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1177,6 +1177,62 @@ margin-bottom: 1.5em;
     padding-right: 0;
     padding-left: 0;
   }
+
+  .slide-1 {
+    background-image: url('/files/graphics/flexhome/Slide-1-1x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-2 {
+    background-image: url('/files/graphics/flexhome/Slide-2-1x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-3 {
+    background-image: url('/files/graphics/flexhome/Slide-3-1x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-4 {
+    background-image: url('/files/graphics/flexhome/Slide-4-1x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-5 {
+    background-image: url('/files/graphics/flexhome/Slide-5-1x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-6 {
+    background-image: url('/files/graphics/flexhome/Slide-6-1x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-7 {
+    background-image: url('/files/graphics/flexhome/Slide-7-1x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -1206,6 +1262,62 @@ margin-bottom: 1.5em;
     padding-right: 0;
     padding-left: 0;
   }
+
+  .slide-1 {
+    background-image: url('/files/graphics/flexhome/Slide-1-15x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-2 {
+    background-image: url('/files/graphics/flexhome/Slide-2-15x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-3 {
+    background-image: url('/files/graphics/flexhome/Slide-3-15x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-4 {
+    background-image: url('/files/graphics/flexhome/Slide-4-15x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-5 {
+    background-image: url('/files/graphics/flexhome/Slide-5-15x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-6 {
+    background-image: url('/files/graphics/flexhome/Slide-6-15x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-7 {
+    background-image: url('/files/graphics/flexhome/Slide-7-15x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1225,6 +1337,62 @@ margin-bottom: 1.5em;
   .contact-col-right {
     padding-right: 0;
     margin-bottom: 15px;
+  }
+
+  .slide-1 {
+    background-image: url('/files/graphics/home/Slide-1-2x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-2 {
+    background-image: url('/files/graphics/home/Slide-2-2x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-3 {
+    background-image: url('/files/graphics/home/Slide-3-2x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-4 {
+    background-image: url('/files/graphics/flexhome/Slide-4-2x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-5 {
+    background-image: url('/files/graphics/home/Slide-5-2x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-6 {
+    background-image: url('/files/graphics/home/Slide-6-2x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide-7 {
+    background-image: url('/files/graphics/home/Slide-7-2x-50.jpg');
+    background-color: #002a5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 
