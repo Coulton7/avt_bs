@@ -85,7 +85,7 @@
 		<div class="row row-eq-height">
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
-					<img class="img-responsive img-75 padding-1em" src="<?php print $logo?>" alt="logo">
+					<img class="img-responsive avt-logo" src="<?php print $logo?>" alt="logo">
 				</a>
 					<?php if ($logo): ?>
 						<a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">

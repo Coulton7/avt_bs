@@ -1094,6 +1094,10 @@ margin-bottom: 1.5em;
     text-align: center;
   }
 
+  .avt-logo{
+    padding: 2em;
+  }
+
   .navbar-collapse ul.secondary {
     width: 100%;
   }
@@ -1156,6 +1160,10 @@ margin-bottom: 1.5em;
     height: 100%;
   }
 
+  .avt-logo{
+    padding: 3em;
+  }
+
   .membership-slick .slick-initialized .slick-slide {
     padding: 0 5px;
   }
@@ -1185,6 +1193,10 @@ margin-bottom: 1.5em;
     padding: 0 35px;
   }
 
+  .avt-logo{
+    padding: 2em;
+  }
+
   .contact-col-left {
     padding-left: 0;
     padding-right: 0;
@@ -1200,6 +1212,10 @@ margin-bottom: 1.5em;
   .contact-col-left {
     padding-left: 0;
     margin-bottom: 15px;
+  }
+
+  .avt-logo{
+    padding: 3em;
   }
 
   .navbar-nav{
