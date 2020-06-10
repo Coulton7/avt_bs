@@ -549,21 +549,6 @@ a.slider-button:hover {
   -webkit-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.3);
 }
 
-.call-to-action-table {
-  margin-left: 20px;
-  margin-bottom: 20px;
-  width: 50%;
-}
-
-.call-to-action-table, .call-to-action-table td {
-  border: none;
-}
-
-.call-to-action-table .fa-check {
-  vertical-align: middle;
-  color: #dd1e25;
-}
-
 .multipage-pane-title, .multipage-link-previous {
   display: none;
 }
@@ -976,10 +961,6 @@ padding:0.5em;
 
   .navbar-collapse ul.secondary {
     width: 100%;
-  }
-
-  .call-to-action-table {
-    margin-left: 0;
   }
 
   .ca-grey-body {

@@ -572,7 +572,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e7', end
     right: 0;
   }
 
-  .view-analysis-enquiry .view-header p, .call-to-action-table {
+  .view-analysis-enquiry .view-header p{
     width: 100%;
   }
 }
