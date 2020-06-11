@@ -120,8 +120,8 @@ function showResponse(responseText, statusText, xhr, $form) {
 				</div>
 			</div>
 		<?php endif; ?>
-		<div class="row row-eq-height">
-			<div class="col-lg-3 col-md-4 col-sm-5 col-xs-6">
+		<div class="row row-eq-height-header">
+			<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
 					<img class="img-responsive avt-logo" src="<?php print $logo?>" alt="logo">
 				</a>
@@ -132,11 +132,11 @@ function showResponse(responseText, statusText, xhr, $form) {
 			</div>
 
 
-			<div class="col-lg-5 col-md-4 col-sm-0 col-xs-0 fullscreen">
+			<div class="col-lg-5 col-md-4 hidden-sm hidden-xs fullscreen">
 
 			</div>
 
-			<div class="col-lg-4 col-md-5 col-sm-6 col-xs-6">
+			<div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
 					<?php if($page['search']):?>
 						<div class="row">
 							<div class="col-sm-12 no-padding">

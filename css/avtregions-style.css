@@ -145,6 +145,12 @@ p.navbar-toggle{
   text-align: center;
 }
 
+@media screen and (max-width: 767px){
+  .row-eq-height-header{
+    display: block;
+  }
+}
+
 @media screen and (min-width: 768px){
   .navbar-nav{
     padding-left: 0;
@@ -152,6 +158,12 @@ p.navbar-toggle{
   .navbar.container-fluid{
     background: none;
     border: none;
+  }
+  .row-eq-height-header{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
