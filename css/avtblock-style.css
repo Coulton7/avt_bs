@@ -554,6 +554,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e7', end
   .breadcrumb-extension{
     background-size: contain;
   }
+  .avt-search .form-group{
+    margin-right: 2em;
+  }
 }
 
 @media (max-width: 990px) {
