@@ -543,7 +543,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e7', end
     margin-top: 20px;
   }
   .avt-search{
-    padding: 1em;
+    padding: 0;
+  }
+  .avt-search .form-group{
+    margin-right: 0.5em;
   }
 }
 
