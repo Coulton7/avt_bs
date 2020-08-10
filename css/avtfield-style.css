@@ -1270,7 +1270,7 @@ padding:0.5em;
   }
 
   .avt-logo{
-    padding: 3em;
+    padding: 2em;
   }
 
   .navbar-nav{
@@ -1351,6 +1351,12 @@ padding:0.5em;
   }
   .entitytype-analysis_enquiry-form .form-group{
   margin-bottom: 1.5em;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .avt-logo{
+    padding: 3em;
   }
 }
 
