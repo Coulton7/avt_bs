@@ -905,6 +905,10 @@ padding:0.5em;
   overflow: visible;
 }
 
+.grecaptcha-badge{
+  bottom: 6em!important;
+}
+
 @media screen and (max-width: 767px) {
   .home-tab-image-wrap {
     display: none;
@@ -1062,6 +1066,9 @@ padding:0.5em;
     background-size: cover;
     background-position: center;
   }
+  .grecaptcha-badge{
+    bottom: 6em!important;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1160,6 +1167,9 @@ padding:0.5em;
   .group-multipage-two .multipage-button{
     bottom: 10em;
     left: 11.5em;
+  }
+  .grecaptcha-badge{
+    bottom: 6em!important;
   }
 }
 
