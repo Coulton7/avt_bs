@@ -964,7 +964,7 @@ padding:0.5em;
   }
 
   .avt-logo{
-    padding: 2em;
+    padding: 1.5em 2.5em 0.5em 2.5em;
   }
 
   .navbar-collapse ul.secondary {
@@ -1081,7 +1081,7 @@ padding:0.5em;
   }
 
   .avt-logo{
-    padding: 3em;
+    padding: 2em 3em 1em 3em;
   }
 
   .membership-slick .slick-initialized .slick-slide {
@@ -1280,7 +1280,7 @@ padding:0.5em;
   }
 
   .avt-logo{
-    padding: 2em;
+    padding: 1.5em 2.5em 0.5em 2.5em;
   }
 
   .navbar-nav{
@@ -1366,7 +1366,7 @@ padding:0.5em;
 
 @media screen and (min-width: 1500px) {
   .avt-logo{
-    padding: 3em;
+    padding: 2em 3em 1em 3em;
   }
 }
 
