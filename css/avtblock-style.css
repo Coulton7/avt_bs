@@ -460,12 +460,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e7', end
   padding: 50px 0 10px
 }
 
-/*share this page header*/
-.share-header {
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
 .footer-menu {
   background-color: #4F4F4F;
   text-align: center;
