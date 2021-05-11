@@ -34,6 +34,8 @@ regions[page_bottom]    = 'Page bottom'
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
 
+stylesheets[all][] = bootstrap/css/bootstrap-theme.min.css
+stylesheets[all][] = bootstrap/css/bootstrap.min.css
 stylesheets[all][] = css/avtfonts-style.css
 stylesheets[all][] = css/avtregions-style.css
 stylesheets[all][] = css/avtblock-style.css
