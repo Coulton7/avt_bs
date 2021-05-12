@@ -41,4 +41,5 @@ stylesheets[all][] = css/avtregions-style.css
 stylesheets[all][] = css/avtblock-style.css
 stylesheets[all][] = css/avtfield-style.css
 
+scripts[] = bootstrap/js/bootstrap.min.js
 scripts[] = js/headerbuttons.js
