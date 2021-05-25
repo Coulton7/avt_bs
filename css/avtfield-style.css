@@ -229,7 +229,7 @@ a.btn-default {
 .training-slide {
   background-image: url('/sites/all/themes/avt_bs/images/AESL3778.jpeg');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   padding: 5em 0 5em 0;
 }
@@ -1019,7 +1019,7 @@ padding:0.5em;
   .training-slide {
     background-image: url('/sites/all/themes/avt_bs/images/AESL3778.jpeg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     padding: 5em 0 5em 0;
   }
@@ -1114,7 +1114,7 @@ padding:0.5em;
   .training-slide {
     background-image: url('/sites/all/themes/avt_bs/images/AESL3778.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     padding: 5em 0 5em 0;
   }
