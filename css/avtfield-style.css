@@ -884,6 +884,10 @@ margin-bottom: 15px;
     margin-bottom: 0;
 }
 
+.help-block{
+  float: left;
+}
+
 .field-group-multipage-group-wrapper.group-multipage-group.field-group-multipage-group{
 padding:0.5em;
 }
