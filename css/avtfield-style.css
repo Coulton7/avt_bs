@@ -229,9 +229,10 @@ a.btn-default {
 .training-slide {
   background-image: url('/sites/all/themes/avt_bs/images/AESL3778.jpeg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto 75%;
   background-position: center;
   padding: 5em 0 5em 0;
+  background-attachment: fixed;
 }
 
 .media-images {
@@ -1012,6 +1013,15 @@ padding:0.5em;
     padding: 0 5px;
   }
 
+  .training-slide {
+    background-image: url('/sites/all/themes/avt_bs/images/AESL3778.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5em 0 5em 0;
+    background-attachment: fixed;
+  }
+
   .slide-1 {
     background-image: url('/files/graphics/flexhome/05x/Slide-3-05x-50.jpg');
     background-color: #002a5b;
@@ -1097,6 +1107,15 @@ padding:0.5em;
   .contact-col-right {
     padding-right: 0;
     padding-left: 0;
+  }
+
+  .training-slide {
+    background-image: url('/sites/all/themes/avt_bs/images/AESL3778.jpeg');
+    background-repeat: no-repeat;
+    background-size: auto 75%;
+    background-position: center;
+    padding: 5em 0 5em 0;
+    background-attachment: fixed;
   }
 
   .slide-1 {
