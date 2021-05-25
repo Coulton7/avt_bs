@@ -57,6 +57,14 @@ a.logo.navbar-btn.pull-left{
   margin: 0;
 }
 
+.page-node-5 .breadcrumb-wrap{
+  margin-bottom: 0;
+}
+
+.page-node-5 .footer{
+  top: 0;
+}
+
 .front .region-content {
     margin: 0;
 }
