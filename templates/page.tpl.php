@@ -221,11 +221,6 @@
 						<div class="page-gap"></div>
 					<?php endif; ?>
 
-			<div class="<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; }
-														else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-12'; }
-														else { print 'col-sm-12'; }
-											?>">
-
 		<div class="tablet-fix">
 		<section id="main-content" class="
 
@@ -283,7 +278,6 @@
 				<?php print render($page['sidebar_second']); ?>
 			</aside>  <!-- /#sidebar-second -->
 		<?php endif; ?>
-	</div>
    </div>
   </div>
  </div>
