@@ -52,6 +52,11 @@ a.logo.navbar-btn.pull-left{
 .region-content{
   margin: 1em;
 }
+
+.training .region-content{
+  margin: 1em 0;
+}
+
 .front .region-content {
     margin: 0;
 }

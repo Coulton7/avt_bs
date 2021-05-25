@@ -226,6 +226,15 @@ a.btn-default {
   padding: 0 35px;
 }
 
+.training-slide {
+  background-image: url('/files/pictures/AESL3778.jpg');
+  background-color: #002a5b;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 5em 0 5em 0;
+}
+
 .media-images {
   padding-bottom: 60px;
 }
