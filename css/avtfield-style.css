@@ -1414,6 +1414,7 @@ padding:0.5em;
 @media screen and (min-width: 1500px) {
   .avt-logo{
     padding: 2em 3em 1em 3em;
+    max-height: 240px;
   }
 }
 
